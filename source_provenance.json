@@ -1,0 +1,36 @@
+{
+  "MAGIC": {
+    "url": "https://github.com/FDUDSDE/MAGIC",
+    "commit": "aa0b647eea74b6faa0e52eb444370c4411a32cbe",
+    "license": "MIT",
+    "graph_archives": {
+      "cadets": {
+        "path": "data/cadets/graphs.zip",
+        "sha256": "53991e4889e37681edc519a3b0d2268f4aad998148ab26116f56c0df9cb522a3"
+      },
+      "theia": {
+        "path": "data/theia/graphs.zip",
+        "sha256": "926b4e30a39b1680fe512ef015bfe03ab85760e12dc7d8ae88da40a346bd6864"
+      },
+      "trace": {
+        "path": "data/trace/graphs.zip",
+        "sha256": "d97a2e8062695a717d58e4cfa5847bf9c47120669aff7675d96a464f99a53f15"
+      },
+      "streamspot": {
+        "path": "data/streamspot/graphs.zip",
+        "sha256": "d20a5c09a0904733aef967abe84881d9e5812f3b67f088c156b7238206382a7e"
+      }
+    }
+  },
+  "ThreaTrace": {
+    "url": "https://github.com/threaTrace-detector/threaTrace",
+    "commit": "2229474a8b37888bd987e9dc59ba17071e096d80",
+    "license": "MIT"
+  },
+  "StreamSpot": {
+    "url": "https://github.com/sbustreamspot/sbustreamspot-data",
+    "commit": "07942da41ae3ba7202b146c758fcf0c30d2cb7b6",
+    "license": "Apache-2.0",
+    "note": "The archive uses MAGIC's public preprocessed graphs.pkl; the original StreamSpot repository is recorded for provenance."
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "data": {
+    "train_fraction": 0.8,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.1,
+    "feature_prefix": "feat_",
+    "benign_campaign": "benign",
+    "history_windows_seconds": [
+      300,
+      900
+    ],
+    "temporal_consistency_window_seconds": 500,
+    "time_unit_semantics": "normalized timestamp units; retained-edge rank for MAGIC extracts",
+    "max_temporal_pairs": 32
+  },
+  "model": {
+    "embedding_dim": 24,
+    "num_layers": 2,
+    "num_prototypes": 8,
+    "temperature": 0.07,
+    "dropout": 0.2,
+    "temporal_decay_init": 0.5,
+    "neighbor_sample_size": 8
+  },
+  "optimization": {
+    "learning_rate": 0.003,
+    "weight_decay": 1e-05,
+    "epochs": 50,
+    "early_stopping_patience": 10,
+    "gradient_clip": 5.0,
+    "batch_size": 1024,
+    "node_loss_weight": 1.0,
+    "edge_loss_weight": 1.0,
+    "link_contrastive_weight": 1.0,
+    "subgraph_loss_weight": 1.0,
+    "explanation_loss_weight": 0.1,
+    "sparsity_coefficient": 0.01,
+    "prototype_coefficient": 1.0,
+    "entropy_coefficient": 1.0,
+    "importance_alignment_coefficient": 1.0,
+    "temporal_consistency_weight": 0.05,
+    "cross_layer_consistency_weight": 0.02,
+    "robustness_regularization": 0.1
+  },
+  "explanation": {
+    "retained_fraction": 0.1,
+    "candidate_retained_fractions": [
+      0.1,
+      0.2,
+      0.3,
+      0.377,
+      0.4,
+      0.5
+    ],
+    "perturbation_noise": 0.02,
+    "stability_repeats": 5,
+    "latency_warmup": 3,
+    "latency_repeats": 10,
+    "evaluation_fractions": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "archive_unclipped_scores": true,
+    "report_deletion_auc": true,
+    "report_insertion_auc": true
+  },
+  "evaluation": {
+    "closed_window_seconds": 500,
+    "unit": "node-window, event edge, and binary evaluation subgraph/window"
+  },
+  "robustness": {
+    "budgets": [
+      0.05,
+      0.1
+    ],
+    "feature_epsilon": 0.01,
+    "training_edge_budget": 0.05
+  },
+  "ablations": [
+    "full",
+    "minus_temporal_stream",
+    "minus_heterogeneous_stream",
+    "minus_joint_optimization",
+    "minus_consistency_regularization",
+    "minus_prototype_learning",
+    "minus_temporal_attention",
+    "minus_gating_mechanism"
+  ],
+  "competitive_baselines": [
+    "gcn",
+    "gat",
+    "temporal_gat",
+    "rgcn"
+  ],
+  "inference": {
+    "confidence_interval": "paired t-based 95 percent",
+    "randomization_test": "exact two-sided sign flip for ten pairs",
+    "multiplicity": "Holm adjustment within each outcome family",
+    "emphasis": "effect sizes, confidence intervals, and complete seed distributions"
+  },
+  "scale_boundary": {
+    "available_training_extract_size": 5000,
+    "prefix_runtime_benchmark_edges": [
+      1000,
+      2500,
+      5000
+    ],
+    "limitation": "larger accuracy experiments require additional raw or normalized data and are not represented as completed"
+  },
+  "seed": 99,
+  "device": "cpu",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "pyyaml": "6.0.3",
+    "cuda_available": false,
+    "cuda_version": null,
+    "device_name": "x86_64",
+    "code_sha256": "7f2f4cd8d1bc3d76e6fbc7cde13a86775151ca4dd87c532a5ba6f76f430060df"
+  },
+  "ablation_flags": {
+    "temporal_stream": true,
+    "heterogeneous_stream": true,
+    "joint_optimization": true,
+    "consistency_regularization": true,
+    "prototype_learning": true,
+    "temporal_attention": false,
+    "gating_mechanism": true
+  },
+  "robustness_aware": false,
+  "selected_explanation_retained_fraction": 0.1,
+  "evaluation_protocol": {
+    "mode": "non-overlapping closed windows",
+    "window_seconds": 500,
+    "future_context_after_window_close": false
+  },
+  "builder_state": {
+    "type_map": {
+      "__UNK__": 0,
+      "type_0": 1,
+      "type_1": 2,
+      "type_2": 3,
+      "type_4": 4
+    },
+    "relation_map": {
+      "__UNK__": 0,
+      "rel_0": 1,
+      "rel_1": 2,
+      "rel_10": 3,
+      "rel_11": 4,
+      "rel_15": 5,
+      "rel_16": 6,
+      "rel_17": 7,
+      "rel_18": 8,
+      "rel_19": 9,
+      "rel_2": 10,
+      "rel_4": 11,
+      "rel_5": 12,
+      "rel_6": 13,
+      "rel_7": 14,
+      "rel_8": 15,
+      "rel_9": 16
+    },
+    "campaign_map": {
+      "train:g120": 0,
+      "train:g160": 1,
+      "train:g185": 2,
+      "train:g202": 3,
+      "train:g206": 4,
+      "train:g23": 5,
+      "train:g235": 6,
+      "train:g244": 7,
+      "train:g250": 8,
+      "train:g301": 9,
+      "train:g310": 10,
+      "train:g316": 11,
+      "train:g323": 12,
+      "train:g331": 13,
+      "train:g334": 14,
+      "train:g339": 15,
+      "train:g342": 16,
+      "train:g343": 17,
+      "train:g350": 18,
+      "train:g354": 19,
+      "train:g360": 20,
+      "train:g362": 21,
+      "train:g368": 22,
+      "train:g369": 23,
+      "train:g383": 24,
+      "train:g386": 25,
+      "train:g390": 26,
+      "train:g391": 27,
+      "train:g399": 28,
+      "train:g405": 29,
+      "train:g435": 30,
+      "train:g441": 31,
+      "train:g446": 32,
+      "train:g464": 33,
+      "train:g470": 34,
+      "train:g472": 35,
+      "train:g48": 36,
+      "train:g484": 37,
+      "train:g556": 38,
+      "train:g564": 39
+    },
+    "feature_columns": [
+      "feat_original_edge_index"
+    ],
+    "scaler_mean": [
+      0.5000000000000001,
+      0.0,
+      1.1069430217801823e-16,
+      0.00025000000000024715,
+      1.7812237668091884,
+      0.004881476022833711,
+      1.7812237668091884,
+      0.004881476022833711,
+      6232.26925
+    ],
+    "scaler_scale": [
+      0.28874731240181534,
+      1.0,
+      0.7070183873139374,
+      0.7071951198219627,
+      1.0190365664119405,
+      0.059853796949181214,
+      1.0190365664119405,
+      0.059853796949181214,
+      3723.0124270212223
+    ],
+    "time_origin": 1.0,
+    "time_scale": 3999.0,
+    "history_windows_seconds": [
+      300,
+      900
+    ],
+    "fit_scope": "training partition only; node/campaign indices are split-local"
+  },
+  "epochs_completed": 24,
+  "best_validation_loss": 2.9159493446350098
+}

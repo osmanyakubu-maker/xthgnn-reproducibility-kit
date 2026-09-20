@@ -1,0 +1,168 @@
+{
+  "runs_checked": 20,
+  "runs_best_at_maximum_epoch": 13,
+  "maximum_epochs": 8,
+  "interpretation": "The evidence characterizes the locked eight-epoch resource budget. A best checkpoint at epoch eight does not establish convergence under a larger budget.",
+  "records": [
+    {
+      "dataset": "cadets",
+      "seed": 11,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 3.9907360076904297,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "cadets",
+      "seed": 22,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 4.004524230957031,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "cadets",
+      "seed": 33,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 4.092797756195068,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "cadets",
+      "seed": 44,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 3.9496190547943115,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "cadets",
+      "seed": 55,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 3.9214553833007812,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "streamspot",
+      "seed": 11,
+      "epochs_completed": 8,
+      "best_epoch": 6,
+      "best_validation_loss": 2.898261547088623,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "streamspot",
+      "seed": 22,
+      "epochs_completed": 4,
+      "best_epoch": 1,
+      "best_validation_loss": 2.9281158447265625,
+      "best_at_maximum_epoch": false
+    },
+    {
+      "dataset": "streamspot",
+      "seed": 33,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 2.8998360633850098,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "streamspot",
+      "seed": 44,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 2.9063608646392822,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "streamspot",
+      "seed": 55,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 2.90757155418396,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "theia",
+      "seed": 11,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.5228304862976074,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "theia",
+      "seed": 22,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.616391897201538,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "theia",
+      "seed": 33,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.6292340755462646,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "theia",
+      "seed": 44,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.5814685821533203,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "theia",
+      "seed": 55,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.57633900642395,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "trace",
+      "seed": 11,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.1758782863616943,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "trace",
+      "seed": 22,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.20534086227417,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "trace",
+      "seed": 33,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.251187324523926,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "trace",
+      "seed": 44,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.1423120498657227,
+      "best_at_maximum_epoch": true
+    },
+    {
+      "dataset": "trace",
+      "seed": 55,
+      "epochs_completed": 8,
+      "best_epoch": 8,
+      "best_validation_loss": 3.295053243637085,
+      "best_at_maximum_epoch": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+model,seed,node_f1,node_auroc,node_threshold,edge_f1,edge_auroc,edge_threshold,subgraph_f1,subgraph_auroc,subgraph_threshold
+LogisticRegression,7,0.5,1.0,0.79,1.0,1.0,0.05,1.0,1.0,0.05
+RandomForest,7,0.5,0.875,0.21000000000000002,0.8571428571428571,1.0,0.32,0.8,0.25,0.05
+HistGradientBoosting,7,0.19999999999999998,0.5,0.05,1.0,1.0,0.05,0.8,0.5,0.05
+LogisticRegression,19,0.5,1.0,0.79,1.0,1.0,0.05,1.0,1.0,0.05
+RandomForest,19,0.5,0.875,0.15000000000000002,0.8571428571428571,1.0,0.39,0.8,0.5,0.64
+HistGradientBoosting,19,0.19999999999999998,0.5,0.05,1.0,1.0,0.05,0.8,0.5,0.05

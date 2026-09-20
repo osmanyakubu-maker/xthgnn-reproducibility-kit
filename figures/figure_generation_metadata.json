@@ -1,0 +1,9 @@
+{
+  "source": "/workspace/scratch/5aa32adf046e/evidence_work/summary/seed_metrics.csv",
+  "source_sha256": "10bae377fa1beaf426ced85f590f643bcb814122df6735a9b20a96d5e628da2f",
+  "figures": [
+    "figure2_detection_variability.png",
+    "figure3_latency_fidelity.png"
+  ],
+  "definition": "figures generated directly from seed_metrics.csv without manuscript-value constants"
+}

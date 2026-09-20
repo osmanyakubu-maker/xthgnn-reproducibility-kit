@@ -1,0 +1,64 @@
+{
+  "fidelity": null,
+  "stability": null,
+  "sparsity": null,
+  "completeness": null,
+  "latency_seconds": null,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 0,
+  "selected_edges": 0,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": null,
+      "stability": null,
+      "sparsity": null,
+      "completeness": null,
+      "latency_seconds": null,
+      "latency_iqr_seconds": [
+        null,
+        null
+      ],
+      "latency_repeats": 0,
+      "selected_edges": 0,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [],
+      "selected_event_rows": [],
+      "prototype_assignments": [],
+      "targets": "predicted alerts; no alerts at the validation-selected threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability",
+      "curve_evaluation": {
+        "fractions": [
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ],
+        "targets": [],
+        "curve": [],
+        "deletion_auc": null,
+        "insertion_probability_auc": null,
+        "normalized_insertion_gain_auc": null,
+        "definition": "raw per-target deletion and insertion probabilities; no predicted alerts"
+      }
+    }
+  ],
+  "deletion_auc": null,
+  "insertion_probability_auc": null,
+  "normalized_insertion_gain_auc": null,
+  "curve_fractions": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "unclipped_scores_archived": true
+}

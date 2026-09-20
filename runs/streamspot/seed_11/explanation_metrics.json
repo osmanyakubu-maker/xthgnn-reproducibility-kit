@@ -1,0 +1,4576 @@
+{
+  "fidelity": 0.002543424954637885,
+  "stability": 1.0,
+  "sparsity": 0.002008032128514056,
+  "completeness": 1.0,
+  "latency_seconds": 0.01529828950015144,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 1,
+  "selected_edges": 498,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": 0.002543424954637885,
+      "stability": 1.0,
+      "sparsity": 0.002008032128514056,
+      "completeness": 1.0,
+      "latency_seconds": 0.01529828950015144,
+      "latency_iqr_seconds": [
+        0.012358969250044538,
+        0.018237609750258343
+      ],
+      "latency_repeats": 2,
+      "selected_edges": 498,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [
+        "streamspot:g180:n1103",
+        "streamspot:g180:n1116",
+        "streamspot:g180:n1190",
+        "streamspot:g180:n1305",
+        "streamspot:g180:n1481",
+        "streamspot:g180:n1606",
+        "streamspot:g180:n1625",
+        "streamspot:g180:n1646",
+        "streamspot:g180:n2118",
+        "streamspot:g180:n2133",
+        "streamspot:g180:n2134",
+        "streamspot:g180:n2189",
+        "streamspot:g180:n2229",
+        "streamspot:g180:n2268",
+        "streamspot:g180:n2467",
+        "streamspot:g180:n2544",
+        "streamspot:g180:n2827",
+        "streamspot:g180:n2840",
+        "streamspot:g180:n3123",
+        "streamspot:g180:n3225",
+        "streamspot:g180:n3306",
+        "streamspot:g180:n3310",
+        "streamspot:g180:n3639",
+        "streamspot:g180:n3653",
+        "streamspot:g180:n3694",
+        "streamspot:g180:n3749",
+        "streamspot:g180:n3849",
+        "streamspot:g180:n402",
+        "streamspot:g180:n4175",
+        "streamspot:g180:n424",
+        "streamspot:g180:n4460",
+        "streamspot:g180:n4469",
+        "streamspot:g180:n4529",
+        "streamspot:g180:n4535",
+        "streamspot:g180:n4546",
+        "streamspot:g180:n4661",
+        "streamspot:g180:n4672",
+        "streamspot:g180:n4677",
+        "streamspot:g180:n4680",
+        "streamspot:g180:n4695",
+        "streamspot:g180:n4711",
+        "streamspot:g180:n4757",
+        "streamspot:g180:n4836",
+        "streamspot:g180:n5012",
+        "streamspot:g180:n5042",
+        "streamspot:g180:n5375",
+        "streamspot:g180:n5571",
+        "streamspot:g180:n5867",
+        "streamspot:g180:n5960",
+        "streamspot:g180:n6074",
+        "streamspot:g180:n6478",
+        "streamspot:g180:n6528",
+        "streamspot:g180:n6667",
+        "streamspot:g180:n789",
+        "streamspot:g180:n848",
+        "streamspot:g180:n875",
+        "streamspot:g180:n954",
+        "streamspot:g180:n964",
+        "streamspot:g191:n1166",
+        "streamspot:g191:n1174",
+        "streamspot:g191:n1197",
+        "streamspot:g191:n1282",
+        "streamspot:g191:n1371",
+        "streamspot:g191:n1487",
+        "streamspot:g191:n167",
+        "streamspot:g191:n1695",
+        "streamspot:g191:n1701",
+        "streamspot:g191:n1787",
+        "streamspot:g191:n1832",
+        "streamspot:g191:n2294",
+        "streamspot:g191:n2342",
+        "streamspot:g191:n2404",
+        "streamspot:g191:n2472",
+        "streamspot:g191:n267",
+        "streamspot:g191:n2808",
+        "streamspot:g191:n2849",
+        "streamspot:g191:n3065",
+        "streamspot:g191:n3125",
+        "streamspot:g191:n3153",
+        "streamspot:g191:n322",
+        "streamspot:g191:n3240",
+        "streamspot:g191:n3269",
+        "streamspot:g191:n3347",
+        "streamspot:g191:n3420",
+        "streamspot:g191:n3427",
+        "streamspot:g191:n3602",
+        "streamspot:g191:n4003",
+        "streamspot:g191:n4136",
+        "streamspot:g191:n4446",
+        "streamspot:g191:n4484",
+        "streamspot:g191:n4662",
+        "streamspot:g191:n4680",
+        "streamspot:g191:n4693",
+        "streamspot:g191:n4841",
+        "streamspot:g191:n5135",
+        "streamspot:g191:n5307",
+        "streamspot:g191:n5381",
+        "streamspot:g191:n5447",
+        "streamspot:g191:n5474",
+        "streamspot:g191:n5528",
+        "streamspot:g191:n5553",
+        "streamspot:g191:n5905",
+        "streamspot:g191:n5913",
+        "streamspot:g191:n5996",
+        "streamspot:g191:n6190",
+        "streamspot:g191:n6318",
+        "streamspot:g191:n6456",
+        "streamspot:g191:n6482",
+        "streamspot:g191:n6519",
+        "streamspot:g191:n6640",
+        "streamspot:g191:n841",
+        "streamspot:g191:n884",
+        "streamspot:g191:n968",
+        "streamspot:g321:n0",
+        "streamspot:g321:n1186",
+        "streamspot:g321:n1255",
+        "streamspot:g321:n1327",
+        "streamspot:g321:n1330",
+        "streamspot:g321:n1703",
+        "streamspot:g321:n1789",
+        "streamspot:g321:n2169",
+        "streamspot:g321:n2283",
+        "streamspot:g321:n2298",
+        "streamspot:g321:n2308",
+        "streamspot:g321:n2310",
+        "streamspot:g321:n2373",
+        "streamspot:g321:n2596",
+        "streamspot:g321:n2663",
+        "streamspot:g321:n2753",
+        "streamspot:g321:n2757",
+        "streamspot:g321:n2793",
+        "streamspot:g321:n2830",
+        "streamspot:g321:n2878",
+        "streamspot:g321:n2931",
+        "streamspot:g321:n3059",
+        "streamspot:g321:n3083",
+        "streamspot:g321:n3254",
+        "streamspot:g321:n3347",
+        "streamspot:g321:n3576",
+        "streamspot:g321:n3746",
+        "streamspot:g321:n379",
+        "streamspot:g321:n381",
+        "streamspot:g321:n400",
+        "streamspot:g321:n4192",
+        "streamspot:g321:n4782",
+        "streamspot:g321:n4835",
+        "streamspot:g321:n4907",
+        "streamspot:g321:n5203",
+        "streamspot:g321:n5289",
+        "streamspot:g321:n5382",
+        "streamspot:g321:n5735",
+        "streamspot:g321:n6029",
+        "streamspot:g321:n6144",
+        "streamspot:g321:n6154",
+        "streamspot:g321:n6172",
+        "streamspot:g321:n6354",
+        "streamspot:g321:n6729",
+        "streamspot:g321:n675",
+        "streamspot:g321:n6771",
+        "streamspot:g321:n6781",
+        "streamspot:g321:n685",
+        "streamspot:g321:n7403",
+        "streamspot:g321:n7611",
+        "streamspot:g321:n7852",
+        "streamspot:g321:n7869",
+        "streamspot:g321:n8090",
+        "streamspot:g321:n8336",
+        "streamspot:g321:n8527",
+        "streamspot:g321:n8825",
+        "streamspot:g321:n9",
+        "streamspot:g333:n0",
+        "streamspot:g333:n1293",
+        "streamspot:g333:n164",
+        "streamspot:g333:n1779",
+        "streamspot:g333:n2302",
+        "streamspot:g333:n2400",
+        "streamspot:g333:n2431",
+        "streamspot:g333:n2493",
+        "streamspot:g333:n2497",
+        "streamspot:g333:n2581",
+        "streamspot:g333:n2757",
+        "streamspot:g333:n2824",
+        "streamspot:g333:n2922",
+        "streamspot:g333:n2942",
+        "streamspot:g333:n3130",
+        "streamspot:g333:n3165",
+        "streamspot:g333:n3210",
+        "streamspot:g333:n3232",
+        "streamspot:g333:n3233",
+        "streamspot:g333:n3284",
+        "streamspot:g333:n3347",
+        "streamspot:g333:n3533",
+        "streamspot:g333:n3558",
+        "streamspot:g333:n3639",
+        "streamspot:g333:n3667",
+        "streamspot:g333:n3769",
+        "streamspot:g333:n3809",
+        "streamspot:g333:n3813",
+        "streamspot:g333:n3821",
+        "streamspot:g333:n3846",
+        "streamspot:g333:n4001",
+        "streamspot:g333:n4452",
+        "streamspot:g333:n4491",
+        "streamspot:g333:n4536",
+        "streamspot:g333:n4663",
+        "streamspot:g333:n4686",
+        "streamspot:g333:n471",
+        "streamspot:g333:n4788",
+        "streamspot:g333:n4838",
+        "streamspot:g333:n5209",
+        "streamspot:g333:n5542",
+        "streamspot:g333:n558",
+        "streamspot:g333:n5699",
+        "streamspot:g333:n6013",
+        "streamspot:g333:n6117",
+        "streamspot:g333:n6183",
+        "streamspot:g333:n63",
+        "streamspot:g333:n6346",
+        "streamspot:g333:n6353",
+        "streamspot:g333:n6706",
+        "streamspot:g333:n6732",
+        "streamspot:g333:n6774",
+        "streamspot:g333:n6834",
+        "streamspot:g333:n6937",
+        "streamspot:g333:n7556",
+        "streamspot:g333:n7557",
+        "streamspot:g333:n7799",
+        "streamspot:g333:n7905",
+        "streamspot:g364:n0",
+        "streamspot:g364:n1086",
+        "streamspot:g364:n1198",
+        "streamspot:g364:n13",
+        "streamspot:g364:n1476",
+        "streamspot:g364:n1754",
+        "streamspot:g364:n2204",
+        "streamspot:g364:n2330",
+        "streamspot:g364:n2394",
+        "streamspot:g364:n2465",
+        "streamspot:g364:n2504",
+        "streamspot:g364:n2835",
+        "streamspot:g364:n2937",
+        "streamspot:g364:n3014",
+        "streamspot:g364:n3128",
+        "streamspot:g364:n3206",
+        "streamspot:g364:n3226",
+        "streamspot:g364:n3264",
+        "streamspot:g364:n3347",
+        "streamspot:g364:n3392",
+        "streamspot:g364:n3534",
+        "streamspot:g364:n384",
+        "streamspot:g364:n3931",
+        "streamspot:g364:n4176",
+        "streamspot:g364:n4218",
+        "streamspot:g364:n4229",
+        "streamspot:g364:n4276",
+        "streamspot:g364:n4404",
+        "streamspot:g364:n443",
+        "streamspot:g364:n4839",
+        "streamspot:g364:n4841",
+        "streamspot:g364:n5376",
+        "streamspot:g364:n5549",
+        "streamspot:g364:n6042",
+        "streamspot:g364:n6135",
+        "streamspot:g364:n6137",
+        "streamspot:g364:n6186",
+        "streamspot:g364:n6391",
+        "streamspot:g364:n6522",
+        "streamspot:g364:n6592",
+        "streamspot:g364:n6602",
+        "streamspot:g364:n667",
+        "streamspot:g364:n6775",
+        "streamspot:g364:n6856",
+        "streamspot:g364:n7481",
+        "streamspot:g364:n7524",
+        "streamspot:g364:n7528",
+        "streamspot:g364:n7687",
+        "streamspot:g364:n7814",
+        "streamspot:g364:n7856",
+        "streamspot:g364:n8440",
+        "streamspot:g364:n8479",
+        "streamspot:g364:n8514",
+        "streamspot:g364:n8614",
+        "streamspot:g364:n8676",
+        "streamspot:g364:n95",
+        "streamspot:g371:n0",
+        "streamspot:g371:n1253",
+        "streamspot:g371:n1411",
+        "streamspot:g371:n1771",
+        "streamspot:g371:n187",
+        "streamspot:g371:n1994",
+        "streamspot:g371:n2283",
+        "streamspot:g371:n2297",
+        "streamspot:g371:n2332",
+        "streamspot:g371:n2542",
+        "streamspot:g371:n2620",
+        "streamspot:g371:n2693",
+        "streamspot:g371:n3002",
+        "streamspot:g371:n3004",
+        "streamspot:g371:n3085",
+        "streamspot:g371:n3232",
+        "streamspot:g371:n3335",
+        "streamspot:g371:n3597",
+        "streamspot:g371:n3616",
+        "streamspot:g371:n3661",
+        "streamspot:g371:n4015",
+        "streamspot:g371:n4083",
+        "streamspot:g371:n4308",
+        "streamspot:g371:n4377",
+        "streamspot:g371:n4399",
+        "streamspot:g371:n4706",
+        "streamspot:g371:n4808",
+        "streamspot:g371:n4834",
+        "streamspot:g371:n5157",
+        "streamspot:g371:n522",
+        "streamspot:g371:n5464",
+        "streamspot:g371:n5471",
+        "streamspot:g371:n6081",
+        "streamspot:g371:n6147",
+        "streamspot:g371:n6390",
+        "streamspot:g371:n6525",
+        "streamspot:g371:n6587",
+        "streamspot:g371:n6745",
+        "streamspot:g371:n6770",
+        "streamspot:g371:n6960",
+        "streamspot:g371:n7028",
+        "streamspot:g371:n7213",
+        "streamspot:g371:n722",
+        "streamspot:g371:n7357",
+        "streamspot:g371:n7412",
+        "streamspot:g371:n7732",
+        "streamspot:g371:n7746",
+        "streamspot:g371:n7850",
+        "streamspot:g371:n7854",
+        "streamspot:g371:n787",
+        "streamspot:g371:n7932",
+        "streamspot:g371:n8059",
+        "streamspot:g371:n8200",
+        "streamspot:g371:n8564",
+        "streamspot:g371:n8729",
+        "streamspot:g371:n8857",
+        "streamspot:g384:n0",
+        "streamspot:g384:n1253",
+        "streamspot:g384:n1442",
+        "streamspot:g384:n1516",
+        "streamspot:g384:n1612",
+        "streamspot:g384:n2009",
+        "streamspot:g384:n2058",
+        "streamspot:g384:n2134",
+        "streamspot:g384:n2175",
+        "streamspot:g384:n2185",
+        "streamspot:g384:n2324",
+        "streamspot:g384:n2353",
+        "streamspot:g384:n2471",
+        "streamspot:g384:n2477",
+        "streamspot:g384:n2526",
+        "streamspot:g384:n2545",
+        "streamspot:g384:n2628",
+        "streamspot:g384:n2646",
+        "streamspot:g384:n2896",
+        "streamspot:g384:n3261",
+        "streamspot:g384:n3267",
+        "streamspot:g384:n3281",
+        "streamspot:g384:n3347",
+        "streamspot:g384:n3460",
+        "streamspot:g384:n3464",
+        "streamspot:g384:n3526",
+        "streamspot:g384:n3540",
+        "streamspot:g384:n3765",
+        "streamspot:g384:n3773",
+        "streamspot:g384:n4233",
+        "streamspot:g384:n4234",
+        "streamspot:g384:n4344",
+        "streamspot:g384:n4389",
+        "streamspot:g384:n4404",
+        "streamspot:g384:n4724",
+        "streamspot:g384:n4838",
+        "streamspot:g384:n506",
+        "streamspot:g384:n5628",
+        "streamspot:g384:n5872",
+        "streamspot:g384:n6",
+        "streamspot:g384:n6076",
+        "streamspot:g384:n6126",
+        "streamspot:g384:n6279",
+        "streamspot:g384:n6470",
+        "streamspot:g384:n6592",
+        "streamspot:g384:n6775",
+        "streamspot:g384:n6785",
+        "streamspot:g384:n7",
+        "streamspot:g384:n7154",
+        "streamspot:g384:n7184",
+        "streamspot:g384:n7246",
+        "streamspot:g384:n7334",
+        "streamspot:g384:n7442",
+        "streamspot:g384:n7517",
+        "streamspot:g384:n7835",
+        "streamspot:g384:n7852",
+        "streamspot:g384:n826",
+        "streamspot:g384:n8335",
+        "streamspot:g384:n8448",
+        "streamspot:g384:n8526",
+        "streamspot:g463:n0",
+        "streamspot:g463:n1206",
+        "streamspot:g463:n1809",
+        "streamspot:g463:n2080",
+        "streamspot:g463:n2241",
+        "streamspot:g463:n2302",
+        "streamspot:g463:n2314",
+        "streamspot:g463:n2376",
+        "streamspot:g463:n2378",
+        "streamspot:g463:n2503",
+        "streamspot:g463:n2509",
+        "streamspot:g463:n2706",
+        "streamspot:g463:n2748",
+        "streamspot:g463:n2797",
+        "streamspot:g463:n2826",
+        "streamspot:g463:n3032",
+        "streamspot:g463:n3089",
+        "streamspot:g463:n3131",
+        "streamspot:g463:n326",
+        "streamspot:g463:n3302",
+        "streamspot:g463:n3412",
+        "streamspot:g463:n3585",
+        "streamspot:g463:n3588",
+        "streamspot:g463:n3593",
+        "streamspot:g463:n3624",
+        "streamspot:g463:n3639",
+        "streamspot:g463:n4285",
+        "streamspot:g463:n4346",
+        "streamspot:g463:n436",
+        "streamspot:g463:n4536",
+        "streamspot:g463:n4626",
+        "streamspot:g463:n4691",
+        "streamspot:g463:n4834",
+        "streamspot:g463:n4894",
+        "streamspot:g463:n499",
+        "streamspot:g463:n5030",
+        "streamspot:g463:n517",
+        "streamspot:g463:n5957",
+        "streamspot:g463:n5958",
+        "streamspot:g463:n6115",
+        "streamspot:g463:n6418",
+        "streamspot:g463:n6438",
+        "streamspot:g463:n6450",
+        "streamspot:g463:n6457",
+        "streamspot:g463:n6584",
+        "streamspot:g463:n6804",
+        "streamspot:g463:n6948",
+        "streamspot:g463:n6990",
+        "streamspot:g463:n7000",
+        "streamspot:g463:n7235",
+        "streamspot:g463:n7484",
+        "streamspot:g463:n7617",
+        "streamspot:g463:n7803",
+        "streamspot:g463:n7871",
+        "streamspot:g463:n8137",
+        "streamspot:g463:n8305",
+        "streamspot:g463:n8377",
+        "streamspot:g463:n8395",
+        "streamspot:g463:n8534",
+        "streamspot:g463:n8706",
+        "streamspot:g567:n0",
+        "streamspot:g567:n1131",
+        "streamspot:g567:n1332",
+        "streamspot:g567:n1449",
+        "streamspot:g567:n1533",
+        "streamspot:g567:n1869",
+        "streamspot:g567:n2022",
+        "streamspot:g567:n2202",
+        "streamspot:g567:n2283",
+        "streamspot:g567:n2289",
+        "streamspot:g567:n2307",
+        "streamspot:g567:n2355",
+        "streamspot:g567:n2362",
+        "streamspot:g567:n2506",
+        "streamspot:g567:n2587",
+        "streamspot:g567:n279",
+        "streamspot:g567:n290",
+        "streamspot:g567:n2995",
+        "streamspot:g567:n3035",
+        "streamspot:g567:n315",
+        "streamspot:g567:n3202",
+        "streamspot:g567:n3203",
+        "streamspot:g567:n3294",
+        "streamspot:g567:n3526",
+        "streamspot:g567:n3553",
+        "streamspot:g567:n3710",
+        "streamspot:g567:n4155",
+        "streamspot:g567:n4379",
+        "streamspot:g567:n4380",
+        "streamspot:g567:n4822",
+        "streamspot:g567:n4836",
+        "streamspot:g567:n4924",
+        "streamspot:g567:n5259",
+        "streamspot:g567:n5358",
+        "streamspot:g567:n5474",
+        "streamspot:g567:n5666",
+        "streamspot:g567:n5722",
+        "streamspot:g567:n5731",
+        "streamspot:g567:n585",
+        "streamspot:g567:n5901",
+        "streamspot:g567:n5969",
+        "streamspot:g567:n6",
+        "streamspot:g567:n616",
+        "streamspot:g567:n6301",
+        "streamspot:g567:n6496",
+        "streamspot:g567:n6522",
+        "streamspot:g567:n6545",
+        "streamspot:g567:n6846",
+        "streamspot:g567:n6930",
+        "streamspot:g567:n6960",
+        "streamspot:g567:n7151",
+        "streamspot:g567:n7193",
+        "streamspot:g567:n7485",
+        "streamspot:g567:n7520",
+        "streamspot:g567:n7698",
+        "streamspot:g567:n7894",
+        "streamspot:g567:n8176",
+        "streamspot:g567:n8640",
+        "streamspot:g567:n8766",
+        "streamspot:g567:n8805",
+        "streamspot:g5:n0",
+        "streamspot:g5:n1233",
+        "streamspot:g5:n1441",
+        "streamspot:g5:n1485",
+        "streamspot:g5:n1609",
+        "streamspot:g5:n1664",
+        "streamspot:g5:n1701",
+        "streamspot:g5:n2124",
+        "streamspot:g5:n2137",
+        "streamspot:g5:n2283",
+        "streamspot:g5:n2298",
+        "streamspot:g5:n2334",
+        "streamspot:g5:n2351",
+        "streamspot:g5:n2403",
+        "streamspot:g5:n2724",
+        "streamspot:g5:n2741",
+        "streamspot:g5:n2800",
+        "streamspot:g5:n2981",
+        "streamspot:g5:n3038",
+        "streamspot:g5:n3244",
+        "streamspot:g5:n3314",
+        "streamspot:g5:n3585",
+        "streamspot:g5:n3639",
+        "streamspot:g5:n3661",
+        "streamspot:g5:n3743",
+        "streamspot:g5:n4085",
+        "streamspot:g5:n4087",
+        "streamspot:g5:n4123",
+        "streamspot:g5:n4210",
+        "streamspot:g5:n4300",
+        "streamspot:g5:n4411",
+        "streamspot:g5:n4842",
+        "streamspot:g5:n4993",
+        "streamspot:g5:n5027",
+        "streamspot:g5:n5856",
+        "streamspot:g5:n5907",
+        "streamspot:g5:n6057",
+        "streamspot:g5:n6174",
+        "streamspot:g5:n6185",
+        "streamspot:g5:n6460",
+        "streamspot:g5:n6486",
+        "streamspot:g5:n650",
+        "streamspot:g5:n666",
+        "streamspot:g5:n6713",
+        "streamspot:g5:n6831",
+        "streamspot:g5:n7063",
+        "streamspot:g5:n7135",
+        "streamspot:g5:n7209",
+        "streamspot:g5:n7393",
+        "streamspot:g5:n7428",
+        "streamspot:g5:n7476",
+        "streamspot:g5:n7619",
+        "streamspot:g5:n771",
+        "streamspot:g5:n7724",
+        "streamspot:g5:n8030",
+        "streamspot:g5:n8120",
+        "streamspot:g5:n971"
+      ],
+      "selected_event_rows": [
+        4500,
+        4501,
+        4502,
+        4503,
+        4504,
+        4505,
+        4506,
+        4507,
+        4508,
+        4509,
+        4510,
+        4511,
+        4512,
+        4513,
+        4514,
+        4515,
+        4516,
+        4517,
+        4518,
+        4519,
+        4520,
+        4521,
+        4522,
+        4523,
+        4524,
+        4525,
+        4526,
+        4527,
+        4528,
+        4529,
+        4530,
+        4531,
+        4532,
+        4533,
+        4534,
+        4535,
+        4536,
+        4537,
+        4538,
+        4539,
+        4540,
+        4541,
+        4542,
+        4543,
+        4544,
+        4545,
+        4546,
+        4547,
+        4548,
+        4549,
+        4550,
+        4551,
+        4552,
+        4553,
+        4554,
+        4555,
+        4556,
+        4557,
+        4558,
+        4559,
+        4560,
+        4561,
+        4562,
+        4563,
+        4564,
+        4565,
+        4566,
+        4567,
+        4568,
+        4569,
+        4570,
+        4571,
+        4572,
+        4573,
+        4574,
+        4575,
+        4576,
+        4577,
+        4578,
+        4579,
+        4580,
+        4581,
+        4582,
+        4583,
+        4584,
+        4585,
+        4586,
+        4587,
+        4588,
+        4589,
+        4590,
+        4591,
+        4592,
+        4593,
+        4594,
+        4595,
+        4596,
+        4597,
+        4598,
+        4599,
+        4600,
+        4601,
+        4602,
+        4603,
+        4604,
+        4605,
+        4606,
+        4607,
+        4608,
+        4609,
+        4610,
+        4611,
+        4612,
+        4613,
+        4614,
+        4615,
+        4616,
+        4617,
+        4618,
+        4619,
+        4620,
+        4621,
+        4622,
+        4623,
+        4624,
+        4625,
+        4626,
+        4627,
+        4628,
+        4629,
+        4630,
+        4631,
+        4632,
+        4633,
+        4634,
+        4635,
+        4636,
+        4637,
+        4638,
+        4639,
+        4640,
+        4641,
+        4642,
+        4643,
+        4644,
+        4645,
+        4646,
+        4647,
+        4648,
+        4649,
+        4650,
+        4651,
+        4652,
+        4653,
+        4654,
+        4655,
+        4656,
+        4657,
+        4658,
+        4659,
+        4660,
+        4661,
+        4662,
+        4663,
+        4664,
+        4665,
+        4666,
+        4667,
+        4668,
+        4669,
+        4670,
+        4671,
+        4672,
+        4673,
+        4674,
+        4675,
+        4676,
+        4677,
+        4678,
+        4679,
+        4680,
+        4681,
+        4682,
+        4683,
+        4684,
+        4685,
+        4686,
+        4687,
+        4688,
+        4689,
+        4690,
+        4691,
+        4692,
+        4693,
+        4694,
+        4695,
+        4696,
+        4697,
+        4698,
+        4699,
+        4700,
+        4701,
+        4702,
+        4703,
+        4704,
+        4705,
+        4706,
+        4707,
+        4708,
+        4709,
+        4710,
+        4711,
+        4712,
+        4713,
+        4714,
+        4715,
+        4716,
+        4717,
+        4718,
+        4719,
+        4720,
+        4721,
+        4722,
+        4723,
+        4724,
+        4725,
+        4726,
+        4727,
+        4728,
+        4729,
+        4730,
+        4731,
+        4732,
+        4733,
+        4734,
+        4735,
+        4736,
+        4737,
+        4738,
+        4739,
+        4740,
+        4741,
+        4742,
+        4743,
+        4744,
+        4745,
+        4746,
+        4747,
+        4748,
+        4749,
+        4750,
+        4751,
+        4752,
+        4753,
+        4754,
+        4755,
+        4756,
+        4757,
+        4758,
+        4759,
+        4760,
+        4761,
+        4762,
+        4763,
+        4764,
+        4765,
+        4766,
+        4767,
+        4768,
+        4769,
+        4770,
+        4771,
+        4772,
+        4773,
+        4774,
+        4775,
+        4776,
+        4777,
+        4778,
+        4779,
+        4780,
+        4781,
+        4782,
+        4783,
+        4784,
+        4785,
+        4786,
+        4787,
+        4788,
+        4789,
+        4790,
+        4791,
+        4792,
+        4793,
+        4794,
+        4795,
+        4796,
+        4797,
+        4798,
+        4799,
+        4800,
+        4801,
+        4802,
+        4803,
+        4804,
+        4805,
+        4806,
+        4807,
+        4808,
+        4809,
+        4810,
+        4811,
+        4812,
+        4813,
+        4814,
+        4815,
+        4816,
+        4817,
+        4818,
+        4819,
+        4820,
+        4821,
+        4822,
+        4823,
+        4824,
+        4825,
+        4826,
+        4827,
+        4828,
+        4829,
+        4830,
+        4831,
+        4832,
+        4833,
+        4834,
+        4835,
+        4836,
+        4837,
+        4838,
+        4839,
+        4840,
+        4841,
+        4842,
+        4844,
+        4845,
+        4846,
+        4847,
+        4848,
+        4849,
+        4850,
+        4851,
+        4852,
+        4853,
+        4854,
+        4855,
+        4856,
+        4857,
+        4858,
+        4859,
+        4860,
+        4861,
+        4862,
+        4863,
+        4864,
+        4865,
+        4866,
+        4867,
+        4868,
+        4869,
+        4870,
+        4871,
+        4872,
+        4873,
+        4874,
+        4875,
+        4876,
+        4877,
+        4878,
+        4879,
+        4880,
+        4881,
+        4882,
+        4883,
+        4884,
+        4885,
+        4886,
+        4887,
+        4888,
+        4889,
+        4890,
+        4891,
+        4892,
+        4893,
+        4894,
+        4895,
+        4896,
+        4897,
+        4898,
+        4899,
+        4900,
+        4901,
+        4902,
+        4903,
+        4904,
+        4905,
+        4906,
+        4907,
+        4908,
+        4909,
+        4910,
+        4911,
+        4912,
+        4913,
+        4914,
+        4915,
+        4916,
+        4917,
+        4918,
+        4919,
+        4920,
+        4921,
+        4922,
+        4923,
+        4924,
+        4925,
+        4926,
+        4927,
+        4928,
+        4929,
+        4930,
+        4931,
+        4932,
+        4933,
+        4934,
+        4935,
+        4936,
+        4937,
+        4938,
+        4939,
+        4940,
+        4941,
+        4942,
+        4943,
+        4944,
+        4945,
+        4946,
+        4947,
+        4948,
+        4949,
+        4950,
+        4951,
+        4952,
+        4953,
+        4954,
+        4955,
+        4956,
+        4957,
+        4958,
+        4959,
+        4960,
+        4961,
+        4962,
+        4963,
+        4964,
+        4965,
+        4966,
+        4967,
+        4968,
+        4969,
+        4970,
+        4971,
+        4972,
+        4973,
+        4974,
+        4975,
+        4976,
+        4977,
+        4978,
+        4980,
+        4981,
+        4982,
+        4983,
+        4984,
+        4985,
+        4986,
+        4987,
+        4988,
+        4989,
+        4990,
+        4991,
+        4992,
+        4993,
+        4994,
+        4995,
+        4996,
+        4997,
+        4998,
+        4999
+      ],
+      "prototype_assignments": [
+        {
+          "node_id": "streamspot:g180:n1103",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.404999732971191
+        },
+        {
+          "node_id": "streamspot:g180:n1116",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.195859909057617
+        },
+        {
+          "node_id": "streamspot:g180:n1190",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.196288585662842
+        },
+        {
+          "node_id": "streamspot:g180:n1305",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.405900478363037
+        },
+        {
+          "node_id": "streamspot:g180:n1481",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197145938873291
+        },
+        {
+          "node_id": "streamspot:g180:n1606",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.406500339508057
+        },
+        {
+          "node_id": "streamspot:g180:n1625",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.19800329208374
+        },
+        {
+          "node_id": "streamspot:g180:n1646",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.407100200653076
+        },
+        {
+          "node_id": "streamspot:g180:n2118",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.198858261108398
+        },
+        {
+          "node_id": "streamspot:g180:n2133",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.319338798522949
+        },
+        {
+          "node_id": "streamspot:g180:n2134",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g180:n2189",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.199286460876465
+        },
+        {
+          "node_id": "streamspot:g180:n2229",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.199714183807373
+        },
+        {
+          "node_id": "streamspot:g180:n2268",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.302478313446045
+        },
+        {
+          "node_id": "streamspot:g180:n2467",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.239150047302246
+        },
+        {
+          "node_id": "streamspot:g180:n2544",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.239572525024414
+        },
+        {
+          "node_id": "streamspot:g180:n2827",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.239995002746582
+        },
+        {
+          "node_id": "streamspot:g180:n2840",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.240416526794434
+        },
+        {
+          "node_id": "streamspot:g180:n3123",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.240838527679443
+        },
+        {
+          "node_id": "streamspot:g180:n3225",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.243339538574219
+        },
+        {
+          "node_id": "streamspot:g180:n3306",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.973249435424805
+        },
+        {
+          "node_id": "streamspot:g180:n3310",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.9736857414245605
+        },
+        {
+          "node_id": "streamspot:g180:n3639",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.542869567871094
+        },
+        {
+          "node_id": "streamspot:g180:n3653",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.241261005401611
+        },
+        {
+          "node_id": "streamspot:g180:n3694",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.242912769317627
+        },
+        {
+          "node_id": "streamspot:g180:n3749",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.301881313323975
+        },
+        {
+          "node_id": "streamspot:g180:n3849",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.008819103240967
+        },
+        {
+          "node_id": "streamspot:g180:n402",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.192427635192871
+        },
+        {
+          "node_id": "streamspot:g180:n4175",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.242527008056641
+        },
+        {
+          "node_id": "streamspot:g180:n424",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.403198719024658
+        },
+        {
+          "node_id": "streamspot:g180:n4460",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.3027753829956055
+        },
+        {
+          "node_id": "streamspot:g180:n4469",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.303072929382324
+        },
+        {
+          "node_id": "streamspot:g180:n4529",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.011114120483398
+        },
+        {
+          "node_id": "streamspot:g180:n4535",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 6.845130443572998
+        },
+        {
+          "node_id": "streamspot:g180:n4546",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g180:n4661",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g180:n4672",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g180:n4677",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.782168865203857
+        },
+        {
+          "node_id": "streamspot:g180:n4680",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.5484938621521
+        },
+        {
+          "node_id": "streamspot:g180:n4695",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.7826008796691895
+        },
+        {
+          "node_id": "streamspot:g180:n4711",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.548927307128906
+        },
+        {
+          "node_id": "streamspot:g180:n4757",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.244634628295898
+        },
+        {
+          "node_id": "streamspot:g180:n4836",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.4674272537231445
+        },
+        {
+          "node_id": "streamspot:g180:n5012",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.808237075805664
+        },
+        {
+          "node_id": "streamspot:g180:n5042",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.808308601379395
+        },
+        {
+          "node_id": "streamspot:g180:n5375",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.808378219604492
+        },
+        {
+          "node_id": "streamspot:g180:n5571",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.808448791503906
+        },
+        {
+          "node_id": "streamspot:g180:n5867",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.549361705780029
+        },
+        {
+          "node_id": "streamspot:g180:n5960",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g180:n6074",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.24505615234375
+        },
+        {
+          "node_id": "streamspot:g180:n6478",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.245477676391602
+        },
+        {
+          "node_id": "streamspot:g180:n6528",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.245898246765137
+        },
+        {
+          "node_id": "streamspot:g180:n6667",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.4860639572143555
+        },
+        {
+          "node_id": "streamspot:g180:n789",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.403497695922852
+        },
+        {
+          "node_id": "streamspot:g180:n848",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1937150955200195
+        },
+        {
+          "node_id": "streamspot:g180:n875",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.404097557067871
+        },
+        {
+          "node_id": "streamspot:g180:n954",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.194574356079102
+        },
+        {
+          "node_id": "streamspot:g180:n964",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.195002555847168
+        },
+        {
+          "node_id": "streamspot:g191:n1166",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178204536437988
+        },
+        {
+          "node_id": "streamspot:g191:n1174",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178642272949219
+        },
+        {
+          "node_id": "streamspot:g191:n1197",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.179080486297607
+        },
+        {
+          "node_id": "streamspot:g191:n1282",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1795172691345215
+        },
+        {
+          "node_id": "streamspot:g191:n1371",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.179955005645752
+        },
+        {
+          "node_id": "streamspot:g191:n1487",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.180392742156982
+        },
+        {
+          "node_id": "streamspot:g191:n167",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.175577640533447
+        },
+        {
+          "node_id": "streamspot:g191:n1695",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1808295249938965
+        },
+        {
+          "node_id": "streamspot:g191:n1701",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.393975257873535
+        },
+        {
+          "node_id": "streamspot:g191:n1787",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.181703090667725
+        },
+        {
+          "node_id": "streamspot:g191:n1832",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.182139873504639
+        },
+        {
+          "node_id": "streamspot:g191:n2294",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.140337944030762
+        },
+        {
+          "node_id": "streamspot:g191:n2342",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.365962505340576
+        },
+        {
+          "node_id": "streamspot:g191:n2404",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.141211986541748
+        },
+        {
+          "node_id": "streamspot:g191:n2472",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2390241622924805
+        },
+        {
+          "node_id": "streamspot:g191:n267",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.176015377044678
+        },
+        {
+          "node_id": "streamspot:g191:n2808",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.141648769378662
+        },
+        {
+          "node_id": "streamspot:g191:n2849",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.142085075378418
+        },
+        {
+          "node_id": "streamspot:g191:n3065",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.142522811889648
+        },
+        {
+          "node_id": "streamspot:g191:n3125",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.142958641052246
+        },
+        {
+          "node_id": "streamspot:g191:n3153",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.14339542388916
+        },
+        {
+          "node_id": "streamspot:g191:n322",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.176453590393066
+        },
+        {
+          "node_id": "streamspot:g191:n3240",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.239459037780762
+        },
+        {
+          "node_id": "streamspot:g191:n3269",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.143831253051758
+        },
+        {
+          "node_id": "streamspot:g191:n3347",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.542869567871094
+        },
+        {
+          "node_id": "streamspot:g191:n3420",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.928772449493408
+        },
+        {
+          "node_id": "streamspot:g191:n3427",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.92921781539917
+        },
+        {
+          "node_id": "streamspot:g191:n3602",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.239892482757568
+        },
+        {
+          "node_id": "streamspot:g191:n4003",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1442670822143555
+        },
+        {
+          "node_id": "streamspot:g191:n4136",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.133236885070801
+        },
+        {
+          "node_id": "streamspot:g191:n4446",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.368700981140137
+        },
+        {
+          "node_id": "streamspot:g191:n4484",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.3690056800842285
+        },
+        {
+          "node_id": "streamspot:g191:n4662",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g191:n4680",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.50338888168335
+        },
+        {
+          "node_id": "streamspot:g191:n4693",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.145576000213623
+        },
+        {
+          "node_id": "streamspot:g191:n4841",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.232786655426025
+        },
+        {
+          "node_id": "streamspot:g191:n5135",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.93360424041748
+        },
+        {
+          "node_id": "streamspot:g191:n5307",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.933653831481934
+        },
+        {
+          "node_id": "streamspot:g191:n5381",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.933704376220703
+        },
+        {
+          "node_id": "streamspot:g191:n5447",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.93375301361084
+        },
+        {
+          "node_id": "streamspot:g191:n5474",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.933802604675293
+        },
+        {
+          "node_id": "streamspot:g191:n5528",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.933849334716797
+        },
+        {
+          "node_id": "streamspot:g191:n5553",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.933897972106934
+        },
+        {
+          "node_id": "streamspot:g191:n5905",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g191:n5913",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g191:n5996",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.508687496185303
+        },
+        {
+          "node_id": "streamspot:g191:n6190",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.146011829376221
+        },
+        {
+          "node_id": "streamspot:g191:n6318",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.146447658538818
+        },
+        {
+          "node_id": "streamspot:g191:n6456",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.146883964538574
+        },
+        {
+          "node_id": "streamspot:g191:n6482",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1473188400268555
+        },
+        {
+          "node_id": "streamspot:g191:n6519",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.147754192352295
+        },
+        {
+          "node_id": "streamspot:g191:n6640",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.148190975189209
+        },
+        {
+          "node_id": "streamspot:g191:n841",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.176892280578613
+        },
+        {
+          "node_id": "streamspot:g191:n884",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.177329063415527
+        },
+        {
+          "node_id": "streamspot:g191:n968",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.177767753601074
+        },
+        {
+          "node_id": "streamspot:g321:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.15181827545166
+        },
+        {
+          "node_id": "streamspot:g321:n1186",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.303609371185303
+        },
+        {
+          "node_id": "streamspot:g321:n1255",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3040289878845215
+        },
+        {
+          "node_id": "streamspot:g321:n1327",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.304447650909424
+        },
+        {
+          "node_id": "streamspot:g321:n1330",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.506065368652344
+        },
+        {
+          "node_id": "streamspot:g321:n1703",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3052849769592285
+        },
+        {
+          "node_id": "streamspot:g321:n1789",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.305705547332764
+        },
+        {
+          "node_id": "streamspot:g321:n2169",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.306122779846191
+        },
+        {
+          "node_id": "streamspot:g321:n2283",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.4674272537231445
+        },
+        {
+          "node_id": "streamspot:g321:n2298",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.899215221405029
+        },
+        {
+          "node_id": "streamspot:g321:n2308",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.310777187347412
+        },
+        {
+          "node_id": "streamspot:g321:n2310",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.311194896697998
+        },
+        {
+          "node_id": "streamspot:g321:n2373",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197048187255859
+        },
+        {
+          "node_id": "streamspot:g321:n2596",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197475433349609
+        },
+        {
+          "node_id": "streamspot:g321:n2663",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197901248931885
+        },
+        {
+          "node_id": "streamspot:g321:n2753",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.198328495025635
+        },
+        {
+          "node_id": "streamspot:g321:n2757",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.198755264282227
+        },
+        {
+          "node_id": "streamspot:g321:n2793",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.199182033538818
+        },
+        {
+          "node_id": "streamspot:g321:n2830",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 6.289964199066162
+        },
+        {
+          "node_id": "streamspot:g321:n2878",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1996073722839355
+        },
+        {
+          "node_id": "streamspot:g321:n2931",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.200034141540527
+        },
+        {
+          "node_id": "streamspot:g321:n3059",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.200459957122803
+        },
+        {
+          "node_id": "streamspot:g321:n3083",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.200885772705078
+        },
+        {
+          "node_id": "streamspot:g321:n3254",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.201312065124512
+        },
+        {
+          "node_id": "streamspot:g321:n3347",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g321:n3576",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2017388343811035
+        },
+        {
+          "node_id": "streamspot:g321:n3746",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.887834548950195
+        },
+        {
+          "node_id": "streamspot:g321:n379",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.503695964813232
+        },
+        {
+          "node_id": "streamspot:g321:n381",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.301931858062744
+        },
+        {
+          "node_id": "streamspot:g321:n400",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3023505210876465
+        },
+        {
+          "node_id": "streamspot:g321:n4192",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.166992664337158
+        },
+        {
+          "node_id": "streamspot:g321:n4782",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.271337509155273
+        },
+        {
+          "node_id": "streamspot:g321:n4835",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.334366321563721
+        },
+        {
+          "node_id": "streamspot:g321:n4907",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.89081859588623
+        },
+        {
+          "node_id": "streamspot:g321:n5203",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.890861511230469
+        },
+        {
+          "node_id": "streamspot:g321:n5289",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.890905380249023
+        },
+        {
+          "node_id": "streamspot:g321:n5382",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.890948295593262
+        },
+        {
+          "node_id": "streamspot:g321:n5735",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.890989303588867
+        },
+        {
+          "node_id": "streamspot:g321:n6029",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2025885581970215
+        },
+        {
+          "node_id": "streamspot:g321:n6144",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.271759986877441
+        },
+        {
+          "node_id": "streamspot:g321:n6154",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.272180557250977
+        },
+        {
+          "node_id": "streamspot:g321:n6172",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.272602081298828
+        },
+        {
+          "node_id": "streamspot:g321:n6354",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.203015327453613
+        },
+        {
+          "node_id": "streamspot:g321:n6729",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g321:n675",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.302771091461182
+        },
+        {
+          "node_id": "streamspot:g321:n6771",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g321:n6781",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g321:n685",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.303190231323242
+        },
+        {
+          "node_id": "streamspot:g321:n7403",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.898794174194336
+        },
+        {
+          "node_id": "streamspot:g321:n7611",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2021636962890625
+        },
+        {
+          "node_id": "streamspot:g321:n7852",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.262305736541748
+        },
+        {
+          "node_id": "streamspot:g321:n7869",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.203440189361572
+        },
+        {
+          "node_id": "streamspot:g321:n8090",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.058083534240723
+        },
+        {
+          "node_id": "streamspot:g321:n8336",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.05827522277832
+        },
+        {
+          "node_id": "streamspot:g321:n8527",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.05846881866455
+        },
+        {
+          "node_id": "streamspot:g321:n8825",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.058661460876465
+        },
+        {
+          "node_id": "streamspot:g321:n9",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.270496368408203
+        },
+        {
+          "node_id": "streamspot:g333:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.093151092529297
+        },
+        {
+          "node_id": "streamspot:g333:n1293",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3282575607299805
+        },
+        {
+          "node_id": "streamspot:g333:n164",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.326038360595703
+        },
+        {
+          "node_id": "streamspot:g333:n1779",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3289971351623535
+        },
+        {
+          "node_id": "streamspot:g333:n2302",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.219091415405273
+        },
+        {
+          "node_id": "streamspot:g333:n2400",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.340760707855225
+        },
+        {
+          "node_id": "streamspot:g333:n2431",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.341485977172852
+        },
+        {
+          "node_id": "streamspot:g333:n2493",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.359586238861084
+        },
+        {
+          "node_id": "streamspot:g333:n2497",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.36030912399292
+        },
+        {
+          "node_id": "streamspot:g333:n2581",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.361031532287598
+        },
+        {
+          "node_id": "streamspot:g333:n2757",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.361753463745117
+        },
+        {
+          "node_id": "streamspot:g333:n2824",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.342212677001953
+        },
+        {
+          "node_id": "streamspot:g333:n2922",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.342936992645264
+        },
+        {
+          "node_id": "streamspot:g333:n2942",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.343662738800049
+        },
+        {
+          "node_id": "streamspot:g333:n3130",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.363196849822998
+        },
+        {
+          "node_id": "streamspot:g333:n3165",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.363917350769043
+        },
+        {
+          "node_id": "streamspot:g333:n3210",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.344387054443359
+        },
+        {
+          "node_id": "streamspot:g333:n3232",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.21982479095459
+        },
+        {
+          "node_id": "streamspot:g333:n3233",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.345113754272461
+        },
+        {
+          "node_id": "streamspot:g333:n3284",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3458380699157715
+        },
+        {
+          "node_id": "streamspot:g333:n3347",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.652521133422852
+        },
+        {
+          "node_id": "streamspot:g333:n3533",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2318196296691895
+        },
+        {
+          "node_id": "streamspot:g333:n3558",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.220556735992432
+        },
+        {
+          "node_id": "streamspot:g333:n3639",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.376760005950928
+        },
+        {
+          "node_id": "streamspot:g333:n3667",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.955967426300049
+        },
+        {
+          "node_id": "streamspot:g333:n3769",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2230634689331055
+        },
+        {
+          "node_id": "streamspot:g333:n3809",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.223794460296631
+        },
+        {
+          "node_id": "streamspot:g333:n3813",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.224524021148682
+        },
+        {
+          "node_id": "streamspot:g333:n3821",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.736319541931152
+        },
+        {
+          "node_id": "streamspot:g333:n3846",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.535383224487305
+        },
+        {
+          "node_id": "streamspot:g333:n4001",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.364640235900879
+        },
+        {
+          "node_id": "streamspot:g333:n4452",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.524962425231934
+        },
+        {
+          "node_id": "streamspot:g333:n4491",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.347287654876709
+        },
+        {
+          "node_id": "streamspot:g333:n4536",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g333:n4663",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g333:n4686",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.637311935424805
+        },
+        {
+          "node_id": "streamspot:g333:n471",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.326777458190918
+        },
+        {
+          "node_id": "streamspot:g333:n4788",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.348011016845703
+        },
+        {
+          "node_id": "streamspot:g333:n4838",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.65252161026001
+        },
+        {
+          "node_id": "streamspot:g333:n5209",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.671365737915039
+        },
+        {
+          "node_id": "streamspot:g333:n5542",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.671442031860352
+        },
+        {
+          "node_id": "streamspot:g333:n558",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.327518463134766
+        },
+        {
+          "node_id": "streamspot:g333:n5699",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.671520233154297
+        },
+        {
+          "node_id": "streamspot:g333:n6013",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.366081714630127
+        },
+        {
+          "node_id": "streamspot:g333:n6117",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.348736763000488
+        },
+        {
+          "node_id": "streamspot:g333:n6183",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.349461078643799
+        },
+        {
+          "node_id": "streamspot:g333:n63",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3252973556518555
+        },
+        {
+          "node_id": "streamspot:g333:n6346",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3668036460876465
+        },
+        {
+          "node_id": "streamspot:g333:n6353",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.367524147033691
+        },
+        {
+          "node_id": "streamspot:g333:n6706",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3624749183654785
+        },
+        {
+          "node_id": "streamspot:g333:n6732",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g333:n6774",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.262305736541748
+        },
+        {
+          "node_id": "streamspot:g333:n6834",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.302043914794922
+        },
+        {
+          "node_id": "streamspot:g333:n6937",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.302776336669922
+        },
+        {
+          "node_id": "streamspot:g333:n7556",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.303508758544922
+        },
+        {
+          "node_id": "streamspot:g333:n7557",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.30424165725708
+        },
+        {
+          "node_id": "streamspot:g333:n7799",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3682451248168945
+        },
+        {
+          "node_id": "streamspot:g333:n7905",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.922144412994385
+        },
+        {
+          "node_id": "streamspot:g364:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.454713821411133
+        },
+        {
+          "node_id": "streamspot:g364:n1086",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.330997467041016
+        },
+        {
+          "node_id": "streamspot:g364:n1198",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.331408977508545
+        },
+        {
+          "node_id": "streamspot:g364:n13",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3393683433532715
+        },
+        {
+          "node_id": "streamspot:g364:n1476",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.331820011138916
+        },
+        {
+          "node_id": "streamspot:g364:n1754",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.332231521606445
+        },
+        {
+          "node_id": "streamspot:g364:n2204",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3326416015625
+        },
+        {
+          "node_id": "streamspot:g364:n2330",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.690089702606201
+        },
+        {
+          "node_id": "streamspot:g364:n2394",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.33854341506958
+        },
+        {
+          "node_id": "streamspot:g364:n2465",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.317490100860596
+        },
+        {
+          "node_id": "streamspot:g364:n2504",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.317900657653809
+        },
+        {
+          "node_id": "streamspot:g364:n2835",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.255882740020752
+        },
+        {
+          "node_id": "streamspot:g364:n2937",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.338955402374268
+        },
+        {
+          "node_id": "streamspot:g364:n3014",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.318309307098389
+        },
+        {
+          "node_id": "streamspot:g364:n3128",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.318719863891602
+        },
+        {
+          "node_id": "streamspot:g364:n3206",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.339780807495117
+        },
+        {
+          "node_id": "streamspot:g364:n3226",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.319129467010498
+        },
+        {
+          "node_id": "streamspot:g364:n3264",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3195390701293945
+        },
+        {
+          "node_id": "streamspot:g364:n3347",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g364:n3392",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.911786079406738
+        },
+        {
+          "node_id": "streamspot:g364:n3534",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.256298542022705
+        },
+        {
+          "node_id": "streamspot:g364:n384",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.402371406555176
+        },
+        {
+          "node_id": "streamspot:g364:n3931",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.319947719573975
+        },
+        {
+          "node_id": "streamspot:g364:n4176",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.066619396209717
+        },
+        {
+          "node_id": "streamspot:g364:n4218",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.0669941902160645
+        },
+        {
+          "node_id": "streamspot:g364:n4229",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.321174621582031
+        },
+        {
+          "node_id": "streamspot:g364:n4276",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.364701747894287
+        },
+        {
+          "node_id": "streamspot:g364:n4404",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.07736587524414
+        },
+        {
+          "node_id": "streamspot:g364:n443",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.330175876617432
+        },
+        {
+          "node_id": "streamspot:g364:n4839",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.55156135559082
+        },
+        {
+          "node_id": "streamspot:g364:n4841",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.254632949829102
+        },
+        {
+          "node_id": "streamspot:g364:n5376",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.754532814025879
+        },
+        {
+          "node_id": "streamspot:g364:n5549",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.754600524902344
+        },
+        {
+          "node_id": "streamspot:g364:n6042",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.321993827819824
+        },
+        {
+          "node_id": "streamspot:g364:n6135",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.322401523590088
+        },
+        {
+          "node_id": "streamspot:g364:n6137",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.340606689453125
+        },
+        {
+          "node_id": "streamspot:g364:n6186",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3410186767578125
+        },
+        {
+          "node_id": "streamspot:g364:n6391",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.322811126708984
+        },
+        {
+          "node_id": "streamspot:g364:n6522",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.323219299316406
+        },
+        {
+          "node_id": "streamspot:g364:n6592",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.280467510223389
+        },
+        {
+          "node_id": "streamspot:g364:n6602",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.920636177062988
+        },
+        {
+          "node_id": "streamspot:g364:n667",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.330586910247803
+        },
+        {
+          "node_id": "streamspot:g364:n6775",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.55156135559082
+        },
+        {
+          "node_id": "streamspot:g364:n6856",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.69038200378418
+        },
+        {
+          "node_id": "streamspot:g364:n7481",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.261290073394775
+        },
+        {
+          "node_id": "streamspot:g364:n7524",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.690966606140137
+        },
+        {
+          "node_id": "streamspot:g364:n7528",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.691259860992432
+        },
+        {
+          "node_id": "streamspot:g364:n7687",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3401947021484375
+        },
+        {
+          "node_id": "streamspot:g364:n7814",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.341431617736816
+        },
+        {
+          "node_id": "streamspot:g364:n7856",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.16972541809082
+        },
+        {
+          "node_id": "streamspot:g364:n8440",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.163861274719238
+        },
+        {
+          "node_id": "streamspot:g364:n8479",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.164041519165039
+        },
+        {
+          "node_id": "streamspot:g364:n8514",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.164220809936523
+        },
+        {
+          "node_id": "streamspot:g364:n8614",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.164400100708008
+        },
+        {
+          "node_id": "streamspot:g364:n8676",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.164580345153809
+        },
+        {
+          "node_id": "streamspot:g364:n95",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.40207576751709
+        },
+        {
+          "node_id": "streamspot:g371:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 5.973039627075195
+        },
+        {
+          "node_id": "streamspot:g371:n1253",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.381555080413818
+        },
+        {
+          "node_id": "streamspot:g371:n1411",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.382287502288818
+        },
+        {
+          "node_id": "streamspot:g371:n1771",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.383018493652344
+        },
+        {
+          "node_id": "streamspot:g371:n187",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.378625869750977
+        },
+        {
+          "node_id": "streamspot:g371:n1994",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.38375186920166
+        },
+        {
+          "node_id": "streamspot:g371:n2283",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.190191745758057
+        },
+        {
+          "node_id": "streamspot:g371:n2297",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.696356296539307
+        },
+        {
+          "node_id": "streamspot:g371:n2332",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 6.315463542938232
+        },
+        {
+          "node_id": "streamspot:g371:n2542",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.398959636688232
+        },
+        {
+          "node_id": "streamspot:g371:n2620",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.389431476593018
+        },
+        {
+          "node_id": "streamspot:g371:n2693",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3996758460998535
+        },
+        {
+          "node_id": "streamspot:g371:n3002",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.390151500701904
+        },
+        {
+          "node_id": "streamspot:g371:n3004",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.400393486022949
+        },
+        {
+          "node_id": "streamspot:g371:n3085",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.401110649108887
+        },
+        {
+          "node_id": "streamspot:g371:n3232",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.454957485198975
+        },
+        {
+          "node_id": "streamspot:g371:n3335",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.402541637420654
+        },
+        {
+          "node_id": "streamspot:g371:n3597",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.352485656738281
+        },
+        {
+          "node_id": "streamspot:g371:n3616",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.390871047973633
+        },
+        {
+          "node_id": "streamspot:g371:n3661",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.113007068634033
+        },
+        {
+          "node_id": "streamspot:g371:n4015",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.403258800506592
+        },
+        {
+          "node_id": "streamspot:g371:n4083",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.566537857055664
+        },
+        {
+          "node_id": "streamspot:g371:n4308",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.391591548919678
+        },
+        {
+          "node_id": "streamspot:g371:n4377",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.39231014251709
+        },
+        {
+          "node_id": "streamspot:g371:n4399",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1063947677612305
+        },
+        {
+          "node_id": "streamspot:g371:n4706",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.394467830657959
+        },
+        {
+          "node_id": "streamspot:g371:n4808",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.393749237060547
+        },
+        {
+          "node_id": "streamspot:g371:n4834",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.698699474334717
+        },
+        {
+          "node_id": "streamspot:g371:n5157",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.760018348693848
+        },
+        {
+          "node_id": "streamspot:g371:n522",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.379358291625977
+        },
+        {
+          "node_id": "streamspot:g371:n5464",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.7600736618042
+        },
+        {
+          "node_id": "streamspot:g371:n5471",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.760132789611816
+        },
+        {
+          "node_id": "streamspot:g371:n6081",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.395186424255371
+        },
+        {
+          "node_id": "streamspot:g371:n6147",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.3959059715271
+        },
+        {
+          "node_id": "streamspot:g371:n6390",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.406122207641602
+        },
+        {
+          "node_id": "streamspot:g371:n6525",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.396624565124512
+        },
+        {
+          "node_id": "streamspot:g371:n6587",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.151818752288818
+        },
+        {
+          "node_id": "streamspot:g371:n6745",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g371:n6770",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.4674272537231445
+        },
+        {
+          "node_id": "streamspot:g371:n6960",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.373660564422607
+        },
+        {
+          "node_id": "streamspot:g371:n7028",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.374382019042969
+        },
+        {
+          "node_id": "streamspot:g371:n7213",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.697548866271973
+        },
+        {
+          "node_id": "streamspot:g371:n722",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.380090236663818
+        },
+        {
+          "node_id": "streamspot:g371:n7357",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.375822067260742
+        },
+        {
+          "node_id": "streamspot:g371:n7412",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.376541614532471
+        },
+        {
+          "node_id": "streamspot:g371:n7732",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.404690265655518
+        },
+        {
+          "node_id": "streamspot:g371:n7746",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.4054059982299805
+        },
+        {
+          "node_id": "streamspot:g371:n7850",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.093151092529297
+        },
+        {
+          "node_id": "streamspot:g371:n7854",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.40683650970459
+        },
+        {
+          "node_id": "streamspot:g371:n787",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.380822658538818
+        },
+        {
+          "node_id": "streamspot:g371:n7932",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.2545747756958
+        },
+        {
+          "node_id": "streamspot:g371:n8059",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.25473690032959
+        },
+        {
+          "node_id": "streamspot:g371:n8200",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.254902839660645
+        },
+        {
+          "node_id": "streamspot:g371:n8564",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.25506591796875
+        },
+        {
+          "node_id": "streamspot:g371:n8729",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.255229949951172
+        },
+        {
+          "node_id": "streamspot:g371:n8857",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.255393981933594
+        },
+        {
+          "node_id": "streamspot:g384:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.410028457641602
+        },
+        {
+          "node_id": "streamspot:g384:n1253",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.288604736328125
+        },
+        {
+          "node_id": "streamspot:g384:n1442",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.289024829864502
+        },
+        {
+          "node_id": "streamspot:g384:n1516",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.289445400238037
+        },
+        {
+          "node_id": "streamspot:g384:n1612",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.289864540100098
+        },
+        {
+          "node_id": "streamspot:g384:n2009",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.290285587310791
+        },
+        {
+          "node_id": "streamspot:g384:n2058",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.290704727172852
+        },
+        {
+          "node_id": "streamspot:g384:n2134",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g384:n2175",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.29112434387207
+        },
+        {
+          "node_id": "streamspot:g384:n2185",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.355854511260986
+        },
+        {
+          "node_id": "streamspot:g384:n2324",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 5.85826301574707
+        },
+        {
+          "node_id": "streamspot:g384:n2353",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.285768508911133
+        },
+        {
+          "node_id": "streamspot:g384:n2471",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.288763523101807
+        },
+        {
+          "node_id": "streamspot:g384:n2477",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2769012451171875
+        },
+        {
+          "node_id": "streamspot:g384:n2526",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.27731990814209
+        },
+        {
+          "node_id": "streamspot:g384:n2545",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.27773904800415
+        },
+        {
+          "node_id": "streamspot:g384:n2628",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.278156280517578
+        },
+        {
+          "node_id": "streamspot:g384:n2646",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.278575420379639
+        },
+        {
+          "node_id": "streamspot:g384:n2896",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.286196708679199
+        },
+        {
+          "node_id": "streamspot:g384:n3261",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.278993129730225
+        },
+        {
+          "node_id": "streamspot:g384:n3267",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.286623477935791
+        },
+        {
+          "node_id": "streamspot:g384:n3281",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.279411315917969
+        },
+        {
+          "node_id": "streamspot:g384:n3347",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g384:n3460",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.279829502105713
+        },
+        {
+          "node_id": "streamspot:g384:n3464",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.287051677703857
+        },
+        {
+          "node_id": "streamspot:g384:n3526",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.180965900421143
+        },
+        {
+          "node_id": "streamspot:g384:n3540",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.287479400634766
+        },
+        {
+          "node_id": "streamspot:g384:n3765",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.87043571472168
+        },
+        {
+          "node_id": "streamspot:g384:n3773",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g384:n4233",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.335277080535889
+        },
+        {
+          "node_id": "streamspot:g384:n4234",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.335573196411133
+        },
+        {
+          "node_id": "streamspot:g384:n4344",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.335870265960693
+        },
+        {
+          "node_id": "streamspot:g384:n4389",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.031092166900635
+        },
+        {
+          "node_id": "streamspot:g384:n4404",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.059550285339355
+        },
+        {
+          "node_id": "streamspot:g384:n4724",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g384:n4838",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g384:n506",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.287766456604004
+        },
+        {
+          "node_id": "streamspot:g384:n5628",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.210362434387207
+        },
+        {
+          "node_id": "streamspot:g384:n5872",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.565354347229004
+        },
+        {
+          "node_id": "streamspot:g384:n6",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 6.903717517852783
+        },
+        {
+          "node_id": "streamspot:g384:n6076",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.287908554077148
+        },
+        {
+          "node_id": "streamspot:g384:n6126",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.281917095184326
+        },
+        {
+          "node_id": "streamspot:g384:n6279",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.282334327697754
+        },
+        {
+          "node_id": "streamspot:g384:n6470",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.282752513885498
+        },
+        {
+          "node_id": "streamspot:g384:n6592",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.028522491455078
+        },
+        {
+          "node_id": "streamspot:g384:n6775",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.028522968292236
+        },
+        {
+          "node_id": "streamspot:g384:n6785",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.929575443267822
+        },
+        {
+          "node_id": "streamspot:g384:n7",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.9288787841796875
+        },
+        {
+          "node_id": "streamspot:g384:n7154",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.28918981552124
+        },
+        {
+          "node_id": "streamspot:g384:n7184",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.289617538452148
+        },
+        {
+          "node_id": "streamspot:g384:n7246",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.290044784545898
+        },
+        {
+          "node_id": "streamspot:g384:n7334",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.290472984313965
+        },
+        {
+          "node_id": "streamspot:g384:n7442",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.29089879989624
+        },
+        {
+          "node_id": "streamspot:g384:n7517",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.291326522827148
+        },
+        {
+          "node_id": "streamspot:g384:n7835",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.288335800170898
+        },
+        {
+          "node_id": "streamspot:g384:n7852",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.376760005950928
+        },
+        {
+          "node_id": "streamspot:g384:n826",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.288185119628906
+        },
+        {
+          "node_id": "streamspot:g384:n8335",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.918938636779785
+        },
+        {
+          "node_id": "streamspot:g384:n8448",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.919144630432129
+        },
+        {
+          "node_id": "streamspot:g384:n8526",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.919351577758789
+        },
+        {
+          "node_id": "streamspot:g463:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.395996570587158
+        },
+        {
+          "node_id": "streamspot:g463:n1206",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2308669090271
+        },
+        {
+          "node_id": "streamspot:g463:n1809",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.231301784515381
+        },
+        {
+          "node_id": "streamspot:g463:n2080",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.556493759155273
+        },
+        {
+          "node_id": "streamspot:g463:n2241",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.989290237426758
+        },
+        {
+          "node_id": "streamspot:g463:n2302",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.0507659912109375
+        },
+        {
+          "node_id": "streamspot:g463:n2314",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.825220108032227
+        },
+        {
+          "node_id": "streamspot:g463:n2376",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.232468605041504
+        },
+        {
+          "node_id": "streamspot:g463:n2378",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.836071014404297
+        },
+        {
+          "node_id": "streamspot:g463:n2503",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.249517917633057
+        },
+        {
+          "node_id": "streamspot:g463:n2509",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.232897758483887
+        },
+        {
+          "node_id": "streamspot:g463:n2706",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.249942779541016
+        },
+        {
+          "node_id": "streamspot:g463:n2748",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.250369548797607
+        },
+        {
+          "node_id": "streamspot:g463:n2797",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.23332405090332
+        },
+        {
+          "node_id": "streamspot:g463:n2826",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.250795364379883
+        },
+        {
+          "node_id": "streamspot:g463:n3032",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.251220226287842
+        },
+        {
+          "node_id": "streamspot:g463:n3089",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.233752727508545
+        },
+        {
+          "node_id": "streamspot:g463:n3131",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.251646041870117
+        },
+        {
+          "node_id": "streamspot:g463:n326",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.554661273956299
+        },
+        {
+          "node_id": "streamspot:g463:n3302",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.252071380615234
+        },
+        {
+          "node_id": "streamspot:g463:n3412",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.234179973602295
+        },
+        {
+          "node_id": "streamspot:g463:n3585",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.953988075256348
+        },
+        {
+          "node_id": "streamspot:g463:n3588",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.954427719116211
+        },
+        {
+          "node_id": "streamspot:g463:n3593",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.25249719619751
+        },
+        {
+          "node_id": "streamspot:g463:n3624",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.3029608726501465
+        },
+        {
+          "node_id": "streamspot:g463:n3639",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g463:n4285",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.303263187408447
+        },
+        {
+          "node_id": "streamspot:g463:n4346",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.836503505706787
+        },
+        {
+          "node_id": "streamspot:g463:n436",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2295613288879395
+        },
+        {
+          "node_id": "streamspot:g463:n4536",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g463:n4626",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.303866863250732
+        },
+        {
+          "node_id": "streamspot:g463:n4691",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.5192484855651855
+        },
+        {
+          "node_id": "streamspot:g463:n4834",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.7761430740356445
+        },
+        {
+          "node_id": "streamspot:g463:n4894",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.513684272766113
+        },
+        {
+          "node_id": "streamspot:g463:n499",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.555271148681641
+        },
+        {
+          "node_id": "streamspot:g463:n5030",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.513808250427246
+        },
+        {
+          "node_id": "streamspot:g463:n517",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.230432510375977
+        },
+        {
+          "node_id": "streamspot:g463:n5957",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g463:n5958",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.465020179748535
+        },
+        {
+          "node_id": "streamspot:g463:n6115",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.23631477355957
+        },
+        {
+          "node_id": "streamspot:g463:n6418",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.23674201965332
+        },
+        {
+          "node_id": "streamspot:g463:n6438",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.253772735595703
+        },
+        {
+          "node_id": "streamspot:g463:n6450",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.254197597503662
+        },
+        {
+          "node_id": "streamspot:g463:n6457",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.237170219421387
+        },
+        {
+          "node_id": "streamspot:g463:n6584",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.237596035003662
+        },
+        {
+          "node_id": "streamspot:g463:n6804",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.955672264099121
+        },
+        {
+          "node_id": "streamspot:g463:n6948",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.542869567871094
+        },
+        {
+          "node_id": "streamspot:g463:n6990",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.7761430740356445
+        },
+        {
+          "node_id": "streamspot:g463:n7000",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g463:n7235",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.723670482635498
+        },
+        {
+          "node_id": "streamspot:g463:n7484",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.0590291023254395
+        },
+        {
+          "node_id": "streamspot:g463:n7617",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.0594635009765625
+        },
+        {
+          "node_id": "streamspot:g463:n7803",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.252922058105469
+        },
+        {
+          "node_id": "streamspot:g463:n7871",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.253347873687744
+        },
+        {
+          "node_id": "streamspot:g463:n8137",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.23802375793457
+        },
+        {
+          "node_id": "streamspot:g463:n8305",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g463:n8377",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.305675983428955
+        },
+        {
+          "node_id": "streamspot:g463:n8395",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g463:n8534",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.530640125274658
+        },
+        {
+          "node_id": "streamspot:g463:n8706",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.916479587554932
+        },
+        {
+          "node_id": "streamspot:g567:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.15181827545166
+        },
+        {
+          "node_id": "streamspot:g567:n1131",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1959357261657715
+        },
+        {
+          "node_id": "streamspot:g567:n1332",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.196377754211426
+        },
+        {
+          "node_id": "streamspot:g567:n1449",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.430110454559326
+        },
+        {
+          "node_id": "streamspot:g567:n1533",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197262763977051
+        },
+        {
+          "node_id": "streamspot:g567:n1869",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.197704315185547
+        },
+        {
+          "node_id": "streamspot:g567:n2022",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.198145389556885
+        },
+        {
+          "node_id": "streamspot:g567:n2202",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.431346416473389
+        },
+        {
+          "node_id": "streamspot:g567:n2283",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.504595756530762
+        },
+        {
+          "node_id": "streamspot:g567:n2289",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.549069881439209
+        },
+        {
+          "node_id": "streamspot:g567:n2307",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.785567283630371
+        },
+        {
+          "node_id": "streamspot:g567:n2355",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.20091438293457
+        },
+        {
+          "node_id": "streamspot:g567:n2362",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.201360702514648
+        },
+        {
+          "node_id": "streamspot:g567:n2506",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.204822063446045
+        },
+        {
+          "node_id": "streamspot:g567:n2587",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.961954116821289
+        },
+        {
+          "node_id": "streamspot:g567:n279",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.427945137023926
+        },
+        {
+          "node_id": "streamspot:g567:n290",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.428253173828125
+        },
+        {
+          "node_id": "streamspot:g567:n2995",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.205259799957275
+        },
+        {
+          "node_id": "streamspot:g567:n3035",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.201807975769043
+        },
+        {
+          "node_id": "streamspot:g567:n315",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.194610118865967
+        },
+        {
+          "node_id": "streamspot:g567:n3202",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.202253341674805
+        },
+        {
+          "node_id": "streamspot:g567:n3203",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.205698490142822
+        },
+        {
+          "node_id": "streamspot:g567:n3294",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8414201736450195
+        },
+        {
+          "node_id": "streamspot:g567:n3526",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.00938606262207
+        },
+        {
+          "node_id": "streamspot:g567:n3553",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.206135272979736
+        },
+        {
+          "node_id": "streamspot:g567:n3710",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.341261386871338
+        },
+        {
+          "node_id": "streamspot:g567:n4155",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g567:n4379",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g567:n4380",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.7716498374938965
+        },
+        {
+          "node_id": "streamspot:g567:n4822",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.803365230560303
+        },
+        {
+          "node_id": "streamspot:g567:n4836",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.334366321563721
+        },
+        {
+          "node_id": "streamspot:g567:n4924",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.868792533874512
+        },
+        {
+          "node_id": "streamspot:g567:n5259",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.869102478027344
+        },
+        {
+          "node_id": "streamspot:g567:n5358",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.869415283203125
+        },
+        {
+          "node_id": "streamspot:g567:n5474",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.869725227355957
+        },
+        {
+          "node_id": "streamspot:g567:n5666",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.870035171508789
+        },
+        {
+          "node_id": "streamspot:g567:n5722",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.870345115661621
+        },
+        {
+          "node_id": "streamspot:g567:n5731",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.870655059814453
+        },
+        {
+          "node_id": "streamspot:g567:n585",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.195052146911621
+        },
+        {
+          "node_id": "streamspot:g567:n5901",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 6.373876094818115
+        },
+        {
+          "node_id": "streamspot:g567:n5969",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.866900444030762
+        },
+        {
+          "node_id": "streamspot:g567:n6",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 6.765430450439453
+        },
+        {
+          "node_id": "streamspot:g567:n616",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.429182052612305
+        },
+        {
+          "node_id": "streamspot:g567:n6301",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.203146457672119
+        },
+        {
+          "node_id": "streamspot:g567:n6496",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.207448959350586
+        },
+        {
+          "node_id": "streamspot:g567:n6522",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.207886695861816
+        },
+        {
+          "node_id": "streamspot:g567:n6545",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.208324432373047
+        },
+        {
+          "node_id": "streamspot:g567:n6846",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.013394832611084
+        },
+        {
+          "node_id": "streamspot:g567:n6930",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.756344318389893
+        },
+        {
+          "node_id": "streamspot:g567:n6960",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.028522491455078
+        },
+        {
+          "node_id": "streamspot:g567:n7151",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.929575443267822
+        },
+        {
+          "node_id": "streamspot:g567:n7193",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.65252161026001
+        },
+        {
+          "node_id": "streamspot:g567:n7485",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.076785564422607
+        },
+        {
+          "node_id": "streamspot:g567:n7520",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.07722806930542
+        },
+        {
+          "node_id": "streamspot:g567:n7698",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.636175155639648
+        },
+        {
+          "node_id": "streamspot:g567:n7894",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.636483192443848
+        },
+        {
+          "node_id": "streamspot:g567:n8176",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.202701091766357
+        },
+        {
+          "node_id": "streamspot:g567:n8640",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.203592777252197
+        },
+        {
+          "node_id": "streamspot:g567:n8766",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.756748676300049
+        },
+        {
+          "node_id": "streamspot:g567:n8805",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 8.041712760925293
+        },
+        {
+          "node_id": "streamspot:g5:n0",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.232786655426025
+        },
+        {
+          "node_id": "streamspot:g5:n1233",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1768341064453125
+        },
+        {
+          "node_id": "streamspot:g5:n1441",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.177282333374023
+        },
+        {
+          "node_id": "streamspot:g5:n1485",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.177730083465576
+        },
+        {
+          "node_id": "streamspot:g5:n1609",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178177356719971
+        },
+        {
+          "node_id": "streamspot:g5:n1664",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178624153137207
+        },
+        {
+          "node_id": "streamspot:g5:n1701",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.429468154907227
+        },
+        {
+          "node_id": "streamspot:g5:n2124",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g5:n2137",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.147695541381836
+        },
+        {
+          "node_id": "streamspot:g5:n2283",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.15181827545166
+        },
+        {
+          "node_id": "streamspot:g5:n2298",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.184181213378906
+        },
+        {
+          "node_id": "streamspot:g5:n2334",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.415833950042725
+        },
+        {
+          "node_id": "streamspot:g5:n2351",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.176838397979736
+        },
+        {
+          "node_id": "streamspot:g5:n2403",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.184621334075928
+        },
+        {
+          "node_id": "streamspot:g5:n2724",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1772847175598145
+        },
+        {
+          "node_id": "streamspot:g5:n2741",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.177730083465576
+        },
+        {
+          "node_id": "streamspot:g5:n2800",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.185060501098633
+        },
+        {
+          "node_id": "streamspot:g5:n2981",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178176403045654
+        },
+        {
+          "node_id": "streamspot:g5:n3038",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.18549919128418
+        },
+        {
+          "node_id": "streamspot:g5:n3244",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.178623199462891
+        },
+        {
+          "node_id": "streamspot:g5:n3314",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.185939311981201
+        },
+        {
+          "node_id": "streamspot:g5:n3585",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.186378002166748
+        },
+        {
+          "node_id": "streamspot:g5:n3639",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.8307108879089355
+        },
+        {
+          "node_id": "streamspot:g5:n3661",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.2449822425842285
+        },
+        {
+          "node_id": "streamspot:g5:n3743",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.276615619659424
+        },
+        {
+          "node_id": "streamspot:g5:n4085",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.276923179626465
+        },
+        {
+          "node_id": "streamspot:g5:n4087",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.2772297859191895
+        },
+        {
+          "node_id": "streamspot:g5:n4123",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.277845859527588
+        },
+        {
+          "node_id": "streamspot:g5:n4210",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.941678047180176
+        },
+        {
+          "node_id": "streamspot:g5:n4300",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.179068565368652
+        },
+        {
+          "node_id": "streamspot:g5:n4411",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.418014049530029
+        },
+        {
+          "node_id": "streamspot:g5:n4842",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.376760005950928
+        },
+        {
+          "node_id": "streamspot:g5:n4993",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.557744979858398
+        },
+        {
+          "node_id": "streamspot:g5:n5027",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.558085441589355
+        },
+        {
+          "node_id": "streamspot:g5:n5856",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 9.55842399597168
+        },
+        {
+          "node_id": "streamspot:g5:n5907",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 7.713461875915527
+        },
+        {
+          "node_id": "streamspot:g5:n6057",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.189009666442871
+        },
+        {
+          "node_id": "streamspot:g5:n6174",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.179960250854492
+        },
+        {
+          "node_id": "streamspot:g5:n6185",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1804046630859375
+        },
+        {
+          "node_id": "streamspot:g5:n6460",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.180850982666016
+        },
+        {
+          "node_id": "streamspot:g5:n6486",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.181295394897461
+        },
+        {
+          "node_id": "streamspot:g5:n650",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.17504358291626
+        },
+        {
+          "node_id": "streamspot:g5:n666",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.426966667175293
+        },
+        {
+          "node_id": "streamspot:g5:n6713",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.491842269897461
+        },
+        {
+          "node_id": "streamspot:g5:n6831",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.334366321563721
+        },
+        {
+          "node_id": "streamspot:g5:n7063",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.189455032348633
+        },
+        {
+          "node_id": "streamspot:g5:n7135",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1899003982543945
+        },
+        {
+          "node_id": "streamspot:g5:n7209",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.190344333648682
+        },
+        {
+          "node_id": "streamspot:g5:n7393",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.190789699554443
+        },
+        {
+          "node_id": "streamspot:g5:n7428",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.493398666381836
+        },
+        {
+          "node_id": "streamspot:g5:n7476",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.493709087371826
+        },
+        {
+          "node_id": "streamspot:g5:n7619",
+          "prototype_index": 0,
+          "prototype_class": 0,
+          "similarity": 5.494019508361816
+        },
+        {
+          "node_id": "streamspot:g5:n771",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.175939559936523
+        },
+        {
+          "node_id": "streamspot:g5:n7724",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.1881327629089355
+        },
+        {
+          "node_id": "streamspot:g5:n8030",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 6.753075122833252
+        },
+        {
+          "node_id": "streamspot:g5:n8120",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.189887046813965
+        },
+        {
+          "node_id": "streamspot:g5:n971",
+          "prototype_index": 5,
+          "prototype_class": 1,
+          "similarity": 7.176387310028076
+        }
+      ],
+      "targets": "predicted alerts at the validation-selected node threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability"
+    }
+  ]
+}

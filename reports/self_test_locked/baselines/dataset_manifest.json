@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/scratch/5aa32adf046e/evidence_work/reports/self_test_locked/synthetic_events.csv",
+  "sha256": "a351ecff5bb5688e2e4ded38a59be9b5e3396349ae2e2c708ff92ac4c63f638f",
+  "rows": 120,
+  "nodes": 18,
+  "relations": 3,
+  "node_types": 2,
+  "campaigns": 4,
+  "malicious_edges": 35,
+  "malicious_node_events": 35,
+  "malicious_campaign_events": 35,
+  "train_rows": 96,
+  "validation_rows": 12,
+  "test_rows": 12,
+  "train_time_max": 1700005700.0,
+  "validation_time_max": 1700006420.0
+}

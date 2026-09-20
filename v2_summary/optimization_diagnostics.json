@@ -1,0 +1,14 @@
+{
+  "runs": 40,
+  "runs_reaching_50_epoch_limit": 10,
+  "median_epochs_executed": 38.5,
+  "minimum_epochs_executed": 11,
+  "maximum_epochs_executed": 50,
+  "median_best_epoch": 28.5,
+  "seeds_per_dataset": {
+    "cadets": 10,
+    "streamspot": 10,
+    "theia": 10,
+    "trace": 10
+  }
+}

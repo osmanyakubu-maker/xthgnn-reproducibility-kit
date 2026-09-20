@@ -1,0 +1,6 @@
+{
+  "python": "Python 3.10.20",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "device": "CPU",
+  "execution_note": "All twenty X-THGNN runs were executed sequentially to avoid latency contention."
+}

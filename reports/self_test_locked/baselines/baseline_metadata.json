@@ -1,0 +1,18 @@
+{
+  "scope": "classical executable sanity baselines",
+  "models": [
+    "LogisticRegression",
+    "RandomForest",
+    "HistGradientBoosting"
+  ],
+  "tasks": [
+    "node",
+    "edge",
+    "subgraph"
+  ],
+  "seeds": [
+    7,
+    19
+  ],
+  "warning": "Do not label these models as EULER, HetGLM, StageFinder, CyberGFM, or CONTINUUM."
+}

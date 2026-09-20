@@ -1,0 +1,28 @@
+{
+  "windows": [
+    {
+      "evaluation_window": 0,
+      "clean_misclassification": 0.08280254900455475,
+      "eligible_positive_nodes": 6,
+      "gate_gradient_available": true,
+      "feature_gradient_available": true,
+      "budgets": {
+        "0.05": {
+          "deleted_edges": 25,
+          "attack_success": 0.0,
+          "explanation_fidelity": 0.0
+        },
+        "0.10": {
+          "deleted_edges": 50,
+          "attack_success": 0.0,
+          "explanation_fidelity": 0.0
+        }
+      },
+      "feature_epsilon": 0.01,
+      "scope": "white-box first-order bounded feature perturbation plus saliency-guided edge deletion; empirical, not certified",
+      "limitation": "Edge insertion is intentionally not claimed; insertion candidates require dataset-specific schema-valid event generation."
+    }
+  ],
+  "scope": "closed-window feature perturbation plus saliency-guided edge deletion; empirical, not certified",
+  "edge_insertion_evaluated": false
+}

@@ -1,0 +1,59 @@
+{
+  "dataset": "darpa_trace",
+  "source_graph": "sources/MAGIC/data/trace/extracted/test0.pkl",
+  "source_graph_sha256": "a8df2e45c64a4ffb465c200e1fc96b91d64cb25468d7686173e69a8c58662c11",
+  "metadata": "sources/MAGIC/data/trace/extracted/metadata.json",
+  "total_events": 5000,
+  "extraction_seed": 20260821,
+  "scope": "resource-bounded public preprocessed benchmark extract, not the full raw release",
+  "timestamp_semantics": "retained edge rank after fixed-seed extraction; preserves order only and is not elapsed wall-clock time",
+  "ground_truth": {
+    "source_file": "TRACE_ground_truth.txt",
+    "file_sha256": "9ad76145905e154830b42d9cb0510cf7f268073d9949226be08e195964b75864",
+    "canonical_sha256": "99df975021da2c27c2621daa6fcab82b4d83c1125319a99ddb0d394ea2a57c5b",
+    "nonblank_rows": 68265,
+    "unique_entity_uuids": 68172,
+    "duplicate_rows": 93,
+    "uuid_format": "RFC-4122 textual form; case-normalized for matching",
+    "label_source_type": "ThreaTrace-expanded anomaly-entity UUID labels",
+    "label_semantics": "positive source-label membership; event-edge labels are derived only when a source or destination UUID is listed",
+    "audit_scope": "file integrity, UUID syntax, counts, duplicates, and canonical hash; not independent semantic adjudication of attack involvement",
+    "semantic_ground_truth_verified": false,
+    "semantic_caveat": "The source labeling policy has been reported to include context-expanded neighboring entities; interpret these as benchmark anomaly/entity labels, not unqualified malicious-entity ground truth.",
+    "serialized_malicious_node_indices": 68086,
+    "serialized_label_names": 23,
+    "serialized_uuid_names": 0,
+    "serialized_uuid_names_matched": 0,
+    "identity_mapping_verified": false,
+    "mapping_note": "MAGIC serializes only labelled entities present in the test graph and may replace UUIDs with entity names. When UUID identities are unavailable, the code records provenance and counts but does not claim an identity-level mapping. Raw UUID membership remains auditable by normalize-tc-ground-truth."
+  },
+  "split_method": "ordered source ranges with within-range class-aware sampling",
+  "partitions": {
+    "train": {
+      "source_range": [
+        0,
+        851341
+      ],
+      "events": 4000,
+      "malicious_events": 800
+    },
+    "validation": {
+      "source_range": [
+        851341,
+        957759
+      ],
+      "events": 500,
+      "malicious_events": 100
+    },
+    "test": {
+      "source_range": [
+        957759,
+        1064177
+      ],
+      "events": 500,
+      "malicious_events": 52
+    }
+  },
+  "malicious_node_count": 68086,
+  "subgraph_label_semantics": "fixed 100-retained-edge evaluation groups labelled positive when at least one retained edge is malicious; not an attack-stage or independently adjudicated campaign annotation"
+}

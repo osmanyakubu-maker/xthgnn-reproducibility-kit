@@ -1,0 +1,480 @@
+{
+  "fidelity": 0.17561620473861694,
+  "stability": 0.9200000047683716,
+  "sparsity": 0.4404040404040404,
+  "completeness": 0.9787054657936096,
+  "latency_seconds": 0.004670017000080406,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 1,
+  "selected_edges": 9,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": 0.17561620473861694,
+      "stability": 0.9200000047683716,
+      "sparsity": 0.4404040404040404,
+      "completeness": 0.9787054657936096,
+      "latency_seconds": 0.004670017000080406,
+      "latency_iqr_seconds": [
+        0.004594365499997366,
+        0.00495302075012205
+      ],
+      "latency_repeats": 10,
+      "selected_edges": 9,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [
+        "darpa_trace:n2315",
+        "darpa_trace:n2379",
+        "darpa_trace:n2398",
+        "darpa_trace:n660968",
+        "darpa_trace:n661230",
+        "darpa_trace:n664390"
+      ],
+      "selected_event_rows": [
+        4553,
+        4554,
+        4555,
+        4651,
+        4652,
+        4668,
+        4701,
+        4702,
+        4723
+      ],
+      "prototype_assignments": [
+        {
+          "node_id": "darpa_trace:n2315",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 10.103532791137695
+        },
+        {
+          "node_id": "darpa_trace:n2379",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 10.280856132507324
+        },
+        {
+          "node_id": "darpa_trace:n2398",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 10.280802726745605
+        },
+        {
+          "node_id": "darpa_trace:n660968",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 9.499920845031738
+        },
+        {
+          "node_id": "darpa_trace:n661230",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 9.499899864196777
+        },
+        {
+          "node_id": "darpa_trace:n664390",
+          "prototype_index": 6,
+          "prototype_class": 0,
+          "similarity": 9.499939918518066
+        }
+      ],
+      "targets": "predicted alerts at the validation-selected node threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability",
+      "curve_evaluation": {
+        "fractions": [
+          0.05,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ],
+        "targets": [
+          {
+            "node_id": "darpa_trace:n2315",
+            "baseline_probability": 0.7735839486122131,
+            "empty_graph_probability": 0.46257126331329346,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.7735839486122131,
+                "inserted_probability": 0.7793854475021362,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0186536312103271
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.7735839486122131,
+                "inserted_probability": 0.7793854475021362,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0186536312103271
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.7717418670654297,
+                "inserted_probability": 0.7793772220611572,
+                "raw_deletion_delta": 0.0018420815467834473,
+                "normalized_insertion_gain": 1.0186271667480469
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.7693864107131958,
+                "inserted_probability": 0.7790734767913818,
+                "raw_deletion_delta": 0.004197537899017334,
+                "normalized_insertion_gain": 1.0176504850387573
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.7662078738212585,
+                "inserted_probability": 0.7780576348304749,
+                "raw_deletion_delta": 0.00737607479095459,
+                "normalized_insertion_gain": 1.0143842697143555
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.7624997496604919,
+                "inserted_probability": 0.7785248160362244,
+                "raw_deletion_delta": 0.011084198951721191,
+                "normalized_insertion_gain": 1.0158864259719849
+              }
+            ]
+          },
+          {
+            "node_id": "darpa_trace:n2379",
+            "baseline_probability": 0.7622266411781311,
+            "empty_graph_probability": 0.4600948691368103,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.7622266411781311,
+                "inserted_probability": 0.7682329416275024,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.019879698753357
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.7622266411781311,
+                "inserted_probability": 0.7654706835746765,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0107371807098389
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.7622266411781311,
+                "inserted_probability": 0.767551839351654,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0176254510879517
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.7622266411781311,
+                "inserted_probability": 0.7662659883499146,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0133694410324097
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.7578967809677124,
+                "inserted_probability": 0.7665398120880127,
+                "raw_deletion_delta": 0.004329860210418701,
+                "normalized_insertion_gain": 1.0142757892608643
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.755391538143158,
+                "inserted_probability": 0.7670641541481018,
+                "raw_deletion_delta": 0.0068351030349731445,
+                "normalized_insertion_gain": 1.0160112380981445
+              }
+            ]
+          },
+          {
+            "node_id": "darpa_trace:n2398",
+            "baseline_probability": 0.7622267603874207,
+            "empty_graph_probability": 0.4600943326950073,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.7622267603874207,
+                "inserted_probability": 0.768231987953186,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0198761224746704
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.7622267603874207,
+                "inserted_probability": 0.7654693126678467,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0107321739196777
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.7622267603874207,
+                "inserted_probability": 0.767551064491272,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.017622470855713
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.7622267603874207,
+                "inserted_probability": 0.7662665247917175,
+                "raw_deletion_delta": 0.0,
+                "normalized_insertion_gain": 1.0133708715438843
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.7579039335250854,
+                "inserted_probability": 0.7665411829948425,
+                "raw_deletion_delta": 0.004322826862335205,
+                "normalized_insertion_gain": 1.0142799615859985
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.7554061412811279,
+                "inserted_probability": 0.7670658826828003,
+                "raw_deletion_delta": 0.006820619106292725,
+                "normalized_insertion_gain": 1.0160166025161743
+              }
+            ]
+          },
+          {
+            "node_id": "darpa_trace:n660968",
+            "baseline_probability": 0.7996299266815186,
+            "empty_graph_probability": 0.44839754700660706,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.44839754700660706,
+                "inserted_probability": 0.7613073587417603,
+                "raw_deletion_delta": 0.3512323796749115,
+                "normalized_insertion_gain": 0.8908911347389221
+              }
+            ]
+          },
+          {
+            "node_id": "darpa_trace:n661230",
+            "baseline_probability": 0.7996304035186768,
+            "empty_graph_probability": 0.44839873909950256,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.44839873909950256,
+                "inserted_probability": 0.7613078355789185,
+                "raw_deletion_delta": 0.3512316644191742,
+                "normalized_insertion_gain": 0.890890896320343
+              }
+            ]
+          },
+          {
+            "node_id": "darpa_trace:n664390",
+            "baseline_probability": 0.7996295094490051,
+            "empty_graph_probability": 0.44839635491371155,
+            "points": [
+              {
+                "retained_fraction": 0.05,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              },
+              {
+                "retained_fraction": 0.1,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              },
+              {
+                "retained_fraction": 0.2,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              },
+              {
+                "retained_fraction": 0.3,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              },
+              {
+                "retained_fraction": 0.4,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              },
+              {
+                "retained_fraction": 0.5,
+                "deleted_probability": 0.44839635491371155,
+                "inserted_probability": 0.7613067626953125,
+                "raw_deletion_delta": 0.3512331545352936,
+                "normalized_insertion_gain": 0.8908908367156982
+              }
+            ]
+          }
+        ],
+        "curve": [
+          {
+            "retained_fraction": 0.05,
+            "mean_raw_deletion_delta": 0.17561620473861694,
+            "mean_deleted_probability": 0.6072050333023071,
+            "mean_inserted_probability": 0.7666286826133728,
+            "mean_normalized_insertion_gain": 0.9551803469657898,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.47020202020202023,
+            "selected_edges": 6
+          },
+          {
+            "retained_fraction": 0.1,
+            "mean_raw_deletion_delta": 0.17561620473861694,
+            "mean_deleted_probability": 0.6072050333023071,
+            "mean_inserted_probability": 0.7657079100608826,
+            "mean_normalized_insertion_gain": 0.9521326422691345,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.4404040404040404,
+            "selected_edges": 9
+          },
+          {
+            "retained_fraction": 0.2,
+            "mean_raw_deletion_delta": 0.1759232133626938,
+            "mean_deleted_probability": 0.6068980097770691,
+            "mean_inserted_probability": 0.7664003372192383,
+            "mean_normalized_insertion_gain": 0.9544246196746826,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.403030303030303,
+            "selected_edges": 13
+          },
+          {
+            "retained_fraction": 0.3,
+            "mean_raw_deletion_delta": 0.1763157844543457,
+            "mean_deleted_probability": 0.6065054535865784,
+            "mean_inserted_probability": 0.7659213542938232,
+            "mean_normalized_insertion_gain": 0.952843964099884,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.35808080808080806,
+            "selected_edges": 18
+          },
+          {
+            "retained_fraction": 0.4,
+            "mean_raw_deletion_delta": 0.17828767001628876,
+            "mean_deleted_probability": 0.6045336127281189,
+            "mean_inserted_probability": 0.7658434510231018,
+            "mean_normalized_insertion_gain": 0.9526021480560303,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.2984848484848485,
+            "selected_edges": 24
+          },
+          {
+            "retained_fraction": 0.5,
+            "mean_raw_deletion_delta": 0.17973951995372772,
+            "mean_deleted_probability": 0.6030817031860352,
+            "mean_inserted_probability": 0.7660961151123047,
+            "mean_normalized_insertion_gain": 0.9534311890602112,
+            "mean_baseline_probability": 0.7828211784362793,
+            "mean_empty_graph_probability": 0.4546588361263275,
+            "target_local_sparsity": 0.2388888888888889,
+            "selected_edges": 30
+          }
+        ],
+        "deletion_auc": 0.16798333674669266,
+        "insertion_probability_auc": 0.7504946365952492,
+        "normalized_insertion_gain_auc": 0.9056551963090896,
+        "definition": "target-local raw deletion and insertion curves; unclipped sigmoid probabilities"
+      }
+    }
+  ],
+  "deletion_auc": 0.16798333674669266,
+  "insertion_probability_auc": 0.7504946365952492,
+  "normalized_insertion_gain_auc": 0.9056551963090896,
+  "curve_fractions": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "unclipped_scores_archived": true
+}

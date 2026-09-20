@@ -1,0 +1,815 @@
+{
+  "fidelity": 0.14646217226982117,
+  "stability": 1.0,
+  "sparsity": 0.0,
+  "completeness": 1.0,
+  "latency_seconds": 0.005834899999626941,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 1,
+  "selected_edges": 97,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": 0.14646217226982117,
+      "stability": 1.0,
+      "sparsity": 0.0,
+      "completeness": 1.0,
+      "latency_seconds": 0.005834899999626941,
+      "latency_iqr_seconds": [
+        0.005199533999757477,
+        0.006470265999496405
+      ],
+      "latency_repeats": 2,
+      "selected_edges": 97,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [
+        "darpa_theia:n101438",
+        "darpa_theia:n101629",
+        "darpa_theia:n108196",
+        "darpa_theia:n108344",
+        "darpa_theia:n108385",
+        "darpa_theia:n108491",
+        "darpa_theia:n113530",
+        "darpa_theia:n113578",
+        "darpa_theia:n119115",
+        "darpa_theia:n179305",
+        "darpa_theia:n182570",
+        "darpa_theia:n202841",
+        "darpa_theia:n202886",
+        "darpa_theia:n207885",
+        "darpa_theia:n225889",
+        "darpa_theia:n225918",
+        "darpa_theia:n225922",
+        "darpa_theia:n225948",
+        "darpa_theia:n225951",
+        "darpa_theia:n225994",
+        "darpa_theia:n226032",
+        "darpa_theia:n226045",
+        "darpa_theia:n226062",
+        "darpa_theia:n226065",
+        "darpa_theia:n226129",
+        "darpa_theia:n226149",
+        "darpa_theia:n226222",
+        "darpa_theia:n226266",
+        "darpa_theia:n226300",
+        "darpa_theia:n226502",
+        "darpa_theia:n226538",
+        "darpa_theia:n226615",
+        "darpa_theia:n226678",
+        "darpa_theia:n226699",
+        "darpa_theia:n226740",
+        "darpa_theia:n226757",
+        "darpa_theia:n226871",
+        "darpa_theia:n226998",
+        "darpa_theia:n227090",
+        "darpa_theia:n227095",
+        "darpa_theia:n227159",
+        "darpa_theia:n227225",
+        "darpa_theia:n227275",
+        "darpa_theia:n227342",
+        "darpa_theia:n227443",
+        "darpa_theia:n227657",
+        "darpa_theia:n227679",
+        "darpa_theia:n227785",
+        "darpa_theia:n227792",
+        "darpa_theia:n227817",
+        "darpa_theia:n227881",
+        "darpa_theia:n227884",
+        "darpa_theia:n227894",
+        "darpa_theia:n227912",
+        "darpa_theia:n227964",
+        "darpa_theia:n227969",
+        "darpa_theia:n227995",
+        "darpa_theia:n227997",
+        "darpa_theia:n228006",
+        "darpa_theia:n228031",
+        "darpa_theia:n228069",
+        "darpa_theia:n228074",
+        "darpa_theia:n228124",
+        "darpa_theia:n228132",
+        "darpa_theia:n228154",
+        "darpa_theia:n228177",
+        "darpa_theia:n228189",
+        "darpa_theia:n228232",
+        "darpa_theia:n228245",
+        "darpa_theia:n228265",
+        "darpa_theia:n228314",
+        "darpa_theia:n228397",
+        "darpa_theia:n228424",
+        "darpa_theia:n228448",
+        "darpa_theia:n228457",
+        "darpa_theia:n228491",
+        "darpa_theia:n228495",
+        "darpa_theia:n228533",
+        "darpa_theia:n228538",
+        "darpa_theia:n228616",
+        "darpa_theia:n228646",
+        "darpa_theia:n228653",
+        "darpa_theia:n228690",
+        "darpa_theia:n228710",
+        "darpa_theia:n228762",
+        "darpa_theia:n228821",
+        "darpa_theia:n228907",
+        "darpa_theia:n228926",
+        "darpa_theia:n228984",
+        "darpa_theia:n229076",
+        "darpa_theia:n48214",
+        "darpa_theia:n57927",
+        "darpa_theia:n5900",
+        "darpa_theia:n61138",
+        "darpa_theia:n85188",
+        "darpa_theia:n88316",
+        "darpa_theia:n90160"
+      ],
+      "selected_event_rows": [
+        4500,
+        4501,
+        4502,
+        4503,
+        4504,
+        4505,
+        4506,
+        4507,
+        4508,
+        4509,
+        4510,
+        4511,
+        4512,
+        4513,
+        4514,
+        4515,
+        4516,
+        4517,
+        4518,
+        4519,
+        4520,
+        4521,
+        4522,
+        4523,
+        4524,
+        4525,
+        4526,
+        4527,
+        4528,
+        4529,
+        4530,
+        4531,
+        4532,
+        4533,
+        4534,
+        4535,
+        4536,
+        4537,
+        4538,
+        4539,
+        4540,
+        4541,
+        4542,
+        4543,
+        4544,
+        4545,
+        4546,
+        4547,
+        4548,
+        4549,
+        4550,
+        4551,
+        4552,
+        4553,
+        4554,
+        4555,
+        4556,
+        4557,
+        4558,
+        4559,
+        4560,
+        4561,
+        4562,
+        4563,
+        4564,
+        4565,
+        4566,
+        4567,
+        4568,
+        4569,
+        4570,
+        4571,
+        4572,
+        4573,
+        4574,
+        4575,
+        4576,
+        4577,
+        4578,
+        4579,
+        4580,
+        4581,
+        4582,
+        4583,
+        4584,
+        4585,
+        4586,
+        4587,
+        4588,
+        4589,
+        4590,
+        4591,
+        4592,
+        4593,
+        4594,
+        4595,
+        4596
+      ],
+      "prototype_assignments": [
+        {
+          "node_id": "darpa_theia:n101438",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879873275756836
+        },
+        {
+          "node_id": "darpa_theia:n101629",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880253791809082
+        },
+        {
+          "node_id": "darpa_theia:n108196",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883021354675293
+        },
+        {
+          "node_id": "darpa_theia:n108344",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880111694335938
+        },
+        {
+          "node_id": "darpa_theia:n108385",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88154411315918
+        },
+        {
+          "node_id": "darpa_theia:n108491",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882594108581543
+        },
+        {
+          "node_id": "darpa_theia:n113530",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879776000976562
+        },
+        {
+          "node_id": "darpa_theia:n113578",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882497787475586
+        },
+        {
+          "node_id": "darpa_theia:n119115",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879444122314453
+        },
+        {
+          "node_id": "darpa_theia:n179305",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881734848022461
+        },
+        {
+          "node_id": "darpa_theia:n182570",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881924629211426
+        },
+        {
+          "node_id": "darpa_theia:n202841",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881831169128418
+        },
+        {
+          "node_id": "darpa_theia:n202886",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882116317749023
+        },
+        {
+          "node_id": "darpa_theia:n207885",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882353782653809
+        },
+        {
+          "node_id": "darpa_theia:n225889",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883353233337402
+        },
+        {
+          "node_id": "darpa_theia:n225918",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883307456970215
+        },
+        {
+          "node_id": "darpa_theia:n225922",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883258819580078
+        },
+        {
+          "node_id": "darpa_theia:n225948",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883212089538574
+        },
+        {
+          "node_id": "darpa_theia:n225951",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883164405822754
+        },
+        {
+          "node_id": "darpa_theia:n225994",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.883115768432617
+        },
+        {
+          "node_id": "darpa_theia:n226032",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88306999206543
+        },
+        {
+          "node_id": "darpa_theia:n226045",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882973670959473
+        },
+        {
+          "node_id": "darpa_theia:n226062",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882925987243652
+        },
+        {
+          "node_id": "darpa_theia:n226065",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882880210876465
+        },
+        {
+          "node_id": "darpa_theia:n226129",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882831573486328
+        },
+        {
+          "node_id": "darpa_theia:n226149",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882735252380371
+        },
+        {
+          "node_id": "darpa_theia:n226222",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882688522338867
+        },
+        {
+          "node_id": "darpa_theia:n226266",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88263988494873
+        },
+        {
+          "node_id": "darpa_theia:n226300",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882545471191406
+        },
+        {
+          "node_id": "darpa_theia:n226502",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882450103759766
+        },
+        {
+          "node_id": "darpa_theia:n226538",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882400512695312
+        },
+        {
+          "node_id": "darpa_theia:n226615",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882211685180664
+        },
+        {
+          "node_id": "darpa_theia:n226678",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88216495513916
+        },
+        {
+          "node_id": "darpa_theia:n226699",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882070541381836
+        },
+        {
+          "node_id": "darpa_theia:n226740",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882022857666016
+        },
+        {
+          "node_id": "darpa_theia:n226757",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881975173950195
+        },
+        {
+          "node_id": "darpa_theia:n226871",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881877899169922
+        },
+        {
+          "node_id": "darpa_theia:n226998",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881782531738281
+        },
+        {
+          "node_id": "darpa_theia:n227090",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88168716430664
+        },
+        {
+          "node_id": "darpa_theia:n227095",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881641387939453
+        },
+        {
+          "node_id": "darpa_theia:n227159",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881590843200684
+        },
+        {
+          "node_id": "darpa_theia:n227225",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881495475769043
+        },
+        {
+          "node_id": "darpa_theia:n227275",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881447792053223
+        },
+        {
+          "node_id": "darpa_theia:n227342",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881401062011719
+        },
+        {
+          "node_id": "darpa_theia:n227443",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881352424621582
+        },
+        {
+          "node_id": "darpa_theia:n227657",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881305694580078
+        },
+        {
+          "node_id": "darpa_theia:n227679",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881258010864258
+        },
+        {
+          "node_id": "darpa_theia:n227785",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881210327148438
+        },
+        {
+          "node_id": "darpa_theia:n227792",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881163597106934
+        },
+        {
+          "node_id": "darpa_theia:n227817",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881068229675293
+        },
+        {
+          "node_id": "darpa_theia:n227881",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880971908569336
+        },
+        {
+          "node_id": "darpa_theia:n227884",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880926132202148
+        },
+        {
+          "node_id": "darpa_theia:n227894",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880876541137695
+        },
+        {
+          "node_id": "darpa_theia:n227912",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880828857421875
+        },
+        {
+          "node_id": "darpa_theia:n227964",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880781173706055
+        },
+        {
+          "node_id": "darpa_theia:n227969",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880732536315918
+        },
+        {
+          "node_id": "darpa_theia:n227995",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880685806274414
+        },
+        {
+          "node_id": "darpa_theia:n227997",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880638122558594
+        },
+        {
+          "node_id": "darpa_theia:n228006",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880589485168457
+        },
+        {
+          "node_id": "darpa_theia:n228031",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880541801452637
+        },
+        {
+          "node_id": "darpa_theia:n228069",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880494117736816
+        },
+        {
+          "node_id": "darpa_theia:n228074",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880446434020996
+        },
+        {
+          "node_id": "darpa_theia:n228124",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880398750305176
+        },
+        {
+          "node_id": "darpa_theia:n228132",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880352020263672
+        },
+        {
+          "node_id": "darpa_theia:n228154",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880302429199219
+        },
+        {
+          "node_id": "darpa_theia:n228177",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880208015441895
+        },
+        {
+          "node_id": "darpa_theia:n228189",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880158424377441
+        },
+        {
+          "node_id": "darpa_theia:n228232",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880064010620117
+        },
+        {
+          "node_id": "darpa_theia:n228245",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.880016326904297
+        },
+        {
+          "node_id": "darpa_theia:n228265",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879968643188477
+        },
+        {
+          "node_id": "darpa_theia:n228314",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.8798246383667
+        },
+        {
+          "node_id": "darpa_theia:n228397",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879728317260742
+        },
+        {
+          "node_id": "darpa_theia:n228424",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879680633544922
+        },
+        {
+          "node_id": "darpa_theia:n228448",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879633903503418
+        },
+        {
+          "node_id": "darpa_theia:n228457",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879586219787598
+        },
+        {
+          "node_id": "darpa_theia:n228491",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879538536071777
+        },
+        {
+          "node_id": "darpa_theia:n228495",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.87948989868164
+        },
+        {
+          "node_id": "darpa_theia:n228533",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879395484924316
+        },
+        {
+          "node_id": "darpa_theia:n228538",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879345893859863
+        },
+        {
+          "node_id": "darpa_theia:n228616",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879298210144043
+        },
+        {
+          "node_id": "darpa_theia:n228646",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879250526428223
+        },
+        {
+          "node_id": "darpa_theia:n228653",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879202842712402
+        },
+        {
+          "node_id": "darpa_theia:n228690",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879155158996582
+        },
+        {
+          "node_id": "darpa_theia:n228710",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879108428955078
+        },
+        {
+          "node_id": "darpa_theia:n228762",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879059791564941
+        },
+        {
+          "node_id": "darpa_theia:n228821",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.8789644241333
+        },
+        {
+          "node_id": "darpa_theia:n228907",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.87891674041748
+        },
+        {
+          "node_id": "darpa_theia:n228926",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.878868103027344
+        },
+        {
+          "node_id": "darpa_theia:n228984",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.87882137298584
+        },
+        {
+          "node_id": "darpa_theia:n229076",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.878772735595703
+        },
+        {
+          "node_id": "darpa_theia:n48214",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882307052612305
+        },
+        {
+          "node_id": "darpa_theia:n57927",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882258415222168
+        },
+        {
+          "node_id": "darpa_theia:n5900",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.88101863861084
+        },
+        {
+          "node_id": "darpa_theia:n61138",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879012107849121
+        },
+        {
+          "node_id": "darpa_theia:n85188",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.881115913391113
+        },
+        {
+          "node_id": "darpa_theia:n88316",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.879920959472656
+        },
+        {
+          "node_id": "darpa_theia:n90160",
+          "prototype_index": 3,
+          "prototype_class": 1,
+          "similarity": 9.882782936096191
+        }
+      ],
+      "targets": "predicted alerts at the validation-selected node threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability"
+    }
+  ]
+}

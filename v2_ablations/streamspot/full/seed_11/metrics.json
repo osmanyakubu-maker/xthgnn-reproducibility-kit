@@ -1,0 +1,44 @@
+{
+  "node": {
+    "n": 589,
+    "prevalence": 0.49575551782682514,
+    "threshold": 0.5325019955635071,
+    "accuracy": 0.499151103565365,
+    "f1": 0.6605293440736478,
+    "precision": 0.49740034662045063,
+    "recall": 0.9828767123287672,
+    "auroc": 0.44544186153775195,
+    "auprc": 0.48956408226101383,
+    "brier_score": 0.25163184466552585,
+    "false_alarms_per_window": 290.0,
+    "evaluation_windows": 1
+  },
+  "edge": {
+    "n": 500,
+    "prevalence": 0.5,
+    "threshold": 0.05,
+    "accuracy": 0.5,
+    "f1": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 1.0,
+    "auroc": 0.5299999999999999,
+    "auprc": 0.5583640045261911,
+    "brier_score": 0.24680498635703704,
+    "false_alarms_per_window": 250.0,
+    "evaluation_windows": 1
+  },
+  "subgraph": {
+    "n": 10,
+    "prevalence": 0.5,
+    "threshold": 0.49370077252388,
+    "accuracy": 0.8,
+    "f1": 0.75,
+    "precision": 1.0,
+    "recall": 0.6,
+    "auroc": 0.88,
+    "auprc": 0.925,
+    "brier_score": 0.24993449588119016,
+    "false_alarms_per_window": 0.0,
+    "evaluation_windows": 1
+  }
+}

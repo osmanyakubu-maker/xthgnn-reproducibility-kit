@@ -1,0 +1,16 @@
+model,metric,n_seeds,mean,sd,ci95_low,ci95_high
+HistGradientBoosting,node_f1,5,1.0,0.0,1.0,1.0
+HistGradientBoosting,node_auroc,5,1.0,0.0,1.0,1.0
+HistGradientBoosting,edge_f1,5,0.18840579710144925,0.0,0.18840579710144925,0.18840579710144925
+HistGradientBoosting,edge_auroc,5,0.9711538461538461,0.0,0.9711538461538461,0.9711538461538461
+HistGradientBoosting,subgraph_f1,5,1.0,0.0,1.0,1.0
+LogisticRegression,node_f1,5,1.0,0.0,1.0,1.0
+LogisticRegression,node_auroc,5,1.0,0.0,1.0,1.0
+LogisticRegression,edge_f1,5,0.9904761904761905,0.0,0.9904761904761905,0.9904761904761905
+LogisticRegression,edge_auroc,5,1.0,0.0,1.0,1.0
+LogisticRegression,subgraph_f1,5,0.888888888888889,0.0,0.888888888888889,0.888888888888889
+RandomForest,node_f1,5,0.6380952380952382,0.28721826380952803,0.2814666602963554,0.994723815894121
+RandomForest,node_auroc,5,0.9975212002609263,0.003978591175988758,0.9925811268341298,1.0024612736877228
+RandomForest,edge_f1,5,1.0,0.0,1.0,1.0
+RandomForest,edge_auroc,5,1.0,0.0,1.0,1.0
+RandomForest,subgraph_f1,5,1.0,0.0,1.0,1.0

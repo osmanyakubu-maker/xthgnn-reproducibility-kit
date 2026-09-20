@@ -1,0 +1,18 @@
+{
+  "dataset": "streamspot",
+  "source_graph": "sources/MAGIC/data/streamspot/extracted/graphs.pkl",
+  "source_graph_sha256": "eb098a78a2e4c00460e1de5d206732d6d3990f21c12a2f718389e7926824858d",
+  "metadata": null,
+  "total_events": 5000,
+  "extraction_seed": 20260821,
+  "scope": "resource-bounded public preprocessed benchmark extract, not the full raw release",
+  "timestamp_semantics": "retained edge rank after fixed-seed extraction; preserves order only and is not elapsed wall-clock time",
+  "ground_truth": null,
+  "split_method": "graph-disjoint class-stratified fixed-seed extraction",
+  "graph_counts": {
+    "train": 40,
+    "validation": 10,
+    "test": 10
+  },
+  "subgraph_label_semantics": "source scenario-graph label; binary attack-versus-benign classification, not attack-stage annotation"
+}

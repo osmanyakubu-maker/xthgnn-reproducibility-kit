@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/normalized/cadets_5000.csv",
+  "sha256": "b03cd41157fd4dcc550da4fce692ef6096d90744a8ee72d8ed389be389da71c5",
+  "rows": 5000,
+  "nodes": 5210,
+  "relations": 17,
+  "node_types": 6,
+  "campaigns": 50,
+  "malicious_edges": 1000,
+  "malicious_node_events": 721,
+  "malicious_campaign_events": 1000,
+  "train_rows": 4000,
+  "validation_rows": 500,
+  "test_rows": 500,
+  "train_time_max": 4000.0,
+  "validation_time_max": 4500.0
+}

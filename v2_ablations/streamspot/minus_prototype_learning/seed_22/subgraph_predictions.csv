@@ -1,0 +1,11 @@
+evaluation_window,campaign_id,label,probability,prediction
+0,test:g180,0,0.491531,0
+0,test:g191,0,0.49048087,0
+0,test:g321,1,0.4939787,1
+0,test:g333,1,0.49054536,0
+0,test:g364,1,0.4957361,1
+0,test:g371,1,0.49654973,1
+0,test:g384,1,0.493302,1
+0,test:g463,0,0.4912353,0
+0,test:g5,0,0.49122867,0
+0,test:g567,0,0.4914698,0
