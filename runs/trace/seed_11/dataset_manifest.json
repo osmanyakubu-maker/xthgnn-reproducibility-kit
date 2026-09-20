@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/scratch/5aa32adf046e/evidence_work/normalized/trace_5000.csv",
+  "sha256": "12826648fe873d5b0f94a41484d3fac5999a527f26feca67ededefc8eda49dce",
+  "rows": 5000,
+  "nodes": 5081,
+  "relations": 17,
+  "node_types": 9,
+  "campaigns": 50,
+  "malicious_edges": 952,
+  "malicious_node_events": 548,
+  "malicious_campaign_events": 952,
+  "train_rows": 4000,
+  "validation_rows": 500,
+  "test_rows": 500,
+  "train_time_max": 4000.0,
+  "validation_time_max": 4500.0
+}

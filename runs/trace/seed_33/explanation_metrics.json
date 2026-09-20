@@ -1,0 +1,648 @@
+{
+  "fidelity": 0.0048583075404167175,
+  "stability": 0.7930327951908112,
+  "sparsity": 0.13939510444700756,
+  "completeness": 1.0,
+  "latency_seconds": 0.004421031999754632,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 1,
+  "selected_edges": 56,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": 0.0048583075404167175,
+      "stability": 0.7930327951908112,
+      "sparsity": 0.13939510444700756,
+      "completeness": 1.0,
+      "latency_seconds": 0.004421031999754632,
+      "latency_iqr_seconds": [
+        0.004413347999843609,
+        0.0044287159996656555
+      ],
+      "latency_repeats": 2,
+      "selected_edges": 56,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [
+        "darpa_trace:n1016",
+        "darpa_trace:n132562",
+        "darpa_trace:n132649",
+        "darpa_trace:n132739",
+        "darpa_trace:n136536",
+        "darpa_trace:n136545",
+        "darpa_trace:n136604",
+        "darpa_trace:n136649",
+        "darpa_trace:n136725",
+        "darpa_trace:n137949",
+        "darpa_trace:n138672",
+        "darpa_trace:n138826",
+        "darpa_trace:n138846",
+        "darpa_trace:n138862",
+        "darpa_trace:n138915",
+        "darpa_trace:n138931",
+        "darpa_trace:n139219",
+        "darpa_trace:n139267",
+        "darpa_trace:n139953",
+        "darpa_trace:n144316",
+        "darpa_trace:n3520",
+        "darpa_trace:n660968",
+        "darpa_trace:n661230",
+        "darpa_trace:n6623",
+        "darpa_trace:n6626",
+        "darpa_trace:n664390",
+        "darpa_trace:n6746",
+        "darpa_trace:n690856",
+        "darpa_trace:n691865",
+        "darpa_trace:n692282",
+        "darpa_trace:n692656",
+        "darpa_trace:n692910",
+        "darpa_trace:n693103",
+        "darpa_trace:n693422",
+        "darpa_trace:n693714",
+        "darpa_trace:n694046",
+        "darpa_trace:n694392",
+        "darpa_trace:n695065",
+        "darpa_trace:n698027",
+        "darpa_trace:n699097",
+        "darpa_trace:n699772",
+        "darpa_trace:n707032",
+        "darpa_trace:n710471",
+        "darpa_trace:n715511",
+        "darpa_trace:n717390",
+        "darpa_trace:n718398",
+        "darpa_trace:n718815",
+        "darpa_trace:n719189",
+        "darpa_trace:n719360",
+        "darpa_trace:n719442",
+        "darpa_trace:n719958",
+        "darpa_trace:n720247",
+        "darpa_trace:n720937",
+        "darpa_trace:n721604",
+        "darpa_trace:n726345",
+        "darpa_trace:n726907",
+        "darpa_trace:n750138",
+        "darpa_trace:n751135",
+        "darpa_trace:n751556",
+        "darpa_trace:n751955",
+        "darpa_trace:n751992",
+        "darpa_trace:n751998",
+        "darpa_trace:n752016",
+        "darpa_trace:n752101",
+        "darpa_trace:n752182",
+        "darpa_trace:n752445",
+        "darpa_trace:n752697",
+        "darpa_trace:n752979",
+        "darpa_trace:n753310",
+        "darpa_trace:n753670",
+        "darpa_trace:n754332",
+        "darpa_trace:n755787",
+        "darpa_trace:n755789",
+        "darpa_trace:n759014",
+        "darpa_trace:n773009",
+        "darpa_trace:n783062",
+        "darpa_trace:n784062",
+        "darpa_trace:n784479",
+        "darpa_trace:n785105"
+      ],
+      "selected_event_rows": [
+        4530,
+        4531,
+        4552,
+        4553,
+        4554,
+        4555,
+        4562,
+        4563,
+        4580,
+        4582,
+        4587,
+        4603,
+        4617,
+        4619,
+        4622,
+        4624,
+        4637,
+        4638,
+        4639,
+        4648,
+        4653,
+        4661,
+        4662,
+        4663,
+        4669,
+        4670,
+        4703,
+        4747,
+        4748,
+        4762,
+        4766,
+        4818,
+        4821,
+        4828,
+        4830,
+        4831,
+        4860,
+        4864,
+        4868,
+        4869,
+        4896,
+        4906,
+        4907,
+        4909,
+        4910,
+        4919,
+        4922,
+        4924,
+        4925,
+        4933,
+        4974,
+        4988,
+        4991,
+        4992,
+        4993,
+        4996
+      ],
+      "prototype_assignments": [
+        {
+          "node_id": "darpa_trace:n1016",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.869470596313477
+        },
+        {
+          "node_id": "darpa_trace:n132562",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.912508010864258
+        },
+        {
+          "node_id": "darpa_trace:n132649",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.98598861694336
+        },
+        {
+          "node_id": "darpa_trace:n132739",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.647384643554688
+        },
+        {
+          "node_id": "darpa_trace:n136536",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.78324031829834
+        },
+        {
+          "node_id": "darpa_trace:n136545",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.783232688903809
+        },
+        {
+          "node_id": "darpa_trace:n136604",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.647141456604004
+        },
+        {
+          "node_id": "darpa_trace:n136649",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.331100463867188
+        },
+        {
+          "node_id": "darpa_trace:n136725",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.26302433013916
+        },
+        {
+          "node_id": "darpa_trace:n137949",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.05377197265625
+        },
+        {
+          "node_id": "darpa_trace:n138672",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.8716459274292
+        },
+        {
+          "node_id": "darpa_trace:n138826",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.625395774841309
+        },
+        {
+          "node_id": "darpa_trace:n138846",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.647204399108887
+        },
+        {
+          "node_id": "darpa_trace:n138862",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.792606353759766
+        },
+        {
+          "node_id": "darpa_trace:n138915",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.625344276428223
+        },
+        {
+          "node_id": "darpa_trace:n138931",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.87164306640625
+        },
+        {
+          "node_id": "darpa_trace:n139219",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.792562484741211
+        },
+        {
+          "node_id": "darpa_trace:n139267",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.053781509399414
+        },
+        {
+          "node_id": "darpa_trace:n139953",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 7.730386257171631
+        },
+        {
+          "node_id": "darpa_trace:n144316",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 7.550983905792236
+        },
+        {
+          "node_id": "darpa_trace:n3520",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.087309837341309
+        },
+        {
+          "node_id": "darpa_trace:n660968",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.408493995666504
+        },
+        {
+          "node_id": "darpa_trace:n661230",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.408574104309082
+        },
+        {
+          "node_id": "darpa_trace:n6623",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.872774124145508
+        },
+        {
+          "node_id": "darpa_trace:n6626",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.870855331420898
+        },
+        {
+          "node_id": "darpa_trace:n664390",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.408411026000977
+        },
+        {
+          "node_id": "darpa_trace:n6746",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.792576789855957
+        },
+        {
+          "node_id": "darpa_trace:n690856",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.649639129638672
+        },
+        {
+          "node_id": "darpa_trace:n691865",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.532576560974121
+        },
+        {
+          "node_id": "darpa_trace:n692282",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n692656",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.412871360778809
+        },
+        {
+          "node_id": "darpa_trace:n692910",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.771088600158691
+        },
+        {
+          "node_id": "darpa_trace:n693103",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.682095527648926
+        },
+        {
+          "node_id": "darpa_trace:n693422",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.563888549804688
+        },
+        {
+          "node_id": "darpa_trace:n693714",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.613978385925293
+        },
+        {
+          "node_id": "darpa_trace:n694046",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.40578842163086
+        },
+        {
+          "node_id": "darpa_trace:n694392",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.0834321975708
+        },
+        {
+          "node_id": "darpa_trace:n695065",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.540322303771973
+        },
+        {
+          "node_id": "darpa_trace:n698027",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n699097",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.766144752502441
+        },
+        {
+          "node_id": "darpa_trace:n699772",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.763678550720215
+        },
+        {
+          "node_id": "darpa_trace:n707032",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.971363067626953
+        },
+        {
+          "node_id": "darpa_trace:n710471",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.764397621154785
+        },
+        {
+          "node_id": "darpa_trace:n715511",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.975177764892578
+        },
+        {
+          "node_id": "darpa_trace:n717390",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.679460525512695
+        },
+        {
+          "node_id": "darpa_trace:n718398",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.339314460754395
+        },
+        {
+          "node_id": "darpa_trace:n718815",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n719189",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.40642261505127
+        },
+        {
+          "node_id": "darpa_trace:n719360",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n719442",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.786336898803711
+        },
+        {
+          "node_id": "darpa_trace:n719958",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.65917682647705
+        },
+        {
+          "node_id": "darpa_trace:n720247",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.633050918579102
+        },
+        {
+          "node_id": "darpa_trace:n720937",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n721604",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.403727531433105
+        },
+        {
+          "node_id": "darpa_trace:n726345",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.760211944580078
+        },
+        {
+          "node_id": "darpa_trace:n726907",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n750138",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.633050918579102
+        },
+        {
+          "node_id": "darpa_trace:n751135",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.548728942871094
+        },
+        {
+          "node_id": "darpa_trace:n751556",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n751955",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.393468856811523
+        },
+        {
+          "node_id": "darpa_trace:n751992",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n751998",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n752016",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n752101",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.87414836883545
+        },
+        {
+          "node_id": "darpa_trace:n752182",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.771088600158691
+        },
+        {
+          "node_id": "darpa_trace:n752445",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.013349533081055
+        },
+        {
+          "node_id": "darpa_trace:n752697",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.649161338806152
+        },
+        {
+          "node_id": "darpa_trace:n752979",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.783821105957031
+        },
+        {
+          "node_id": "darpa_trace:n753310",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.388337135314941
+        },
+        {
+          "node_id": "darpa_trace:n753670",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.383052825927734
+        },
+        {
+          "node_id": "darpa_trace:n754332",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.46923542022705
+        },
+        {
+          "node_id": "darpa_trace:n755787",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.707008361816406
+        },
+        {
+          "node_id": "darpa_trace:n755789",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.106523513793945
+        },
+        {
+          "node_id": "darpa_trace:n759014",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 9.761241912841797
+        },
+        {
+          "node_id": "darpa_trace:n773009",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.10659122467041
+        },
+        {
+          "node_id": "darpa_trace:n783062",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.39292049407959
+        },
+        {
+          "node_id": "darpa_trace:n784062",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.234662055969238
+        },
+        {
+          "node_id": "darpa_trace:n784479",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.563888549804688
+        },
+        {
+          "node_id": "darpa_trace:n785105",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 10.771088600158691
+        }
+      ],
+      "targets": "predicted alerts at the validation-selected node threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability"
+    }
+  ]
+}

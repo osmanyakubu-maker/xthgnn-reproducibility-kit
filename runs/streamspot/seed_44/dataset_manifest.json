@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/scratch/5aa32adf046e/evidence_work/normalized/streamspot_5000.csv",
+  "sha256": "6a719414938da3df99ad7a573eb378db8eb4ef6e071c076667c73431a558c00f",
+  "rows": 5000,
+  "nodes": 5722,
+  "relations": 16,
+  "node_types": 4,
+  "campaigns": 60,
+  "malicious_edges": 2500,
+  "malicious_node_events": 2500,
+  "malicious_campaign_events": 2500,
+  "train_rows": 4000,
+  "validation_rows": 500,
+  "test_rows": 500,
+  "train_time_max": 4000.0,
+  "validation_time_max": 4500.0
+}

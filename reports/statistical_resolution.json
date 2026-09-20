@@ -1,0 +1,11 @@
+{
+  "paired_seed_count": 5,
+  "exact_two_sided_sign_flip_minimum_p_value": 0.0625,
+  "paired_t_test_assumptions": {
+    "two_sided_alpha": 0.05,
+    "target_power": 0.8,
+    "normal_paired_differences": true
+  },
+  "approximate_minimum_detectable_absolute_dz": 1.6819969659555554,
+  "interpretation": "Five paired seeds support only coarse randomization inference and have 80% power only for a very large standardized paired effect under the stated assumptions."
+}

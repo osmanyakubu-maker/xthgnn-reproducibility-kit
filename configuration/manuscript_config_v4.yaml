@@ -1,0 +1,109 @@
+protocol_version: X-THGNN focused confirmatory extension 4.0
+parent_protocol: X-THGNN label-provenance-audited evaluation 3.1
+protocol_locked_utc: 2026-09-20
+analysis_status: prospective before Version 2 test inspection
+extraction_seed: 20260821
+training_seeds:
+- 11
+- 22
+- 33
+- 44
+- 55
+- 66
+- 77
+- 88
+- 99
+- 110
+events_per_extract: 5000
+default_device: cpu
+task_scope: primary binary entity/node detection with secondary endpoint-derived event-edge and evaluation-subgraph/window sensitivity outcomes; no attack-stage claim
+primary_outcome: entity/node F1 on source-defined labels
+secondary_outcomes:
+- entity/node AUROC and AUPRC
+- endpoint-derived event-edge AUROC, AUPRC, and F1
+- derived evaluation-subgraph/window F1
+- explanation deletion and insertion diagnostics
+ground_truth:
+  scheme: ThreaTrace-expanded anomaly-entity UUID labels used by MAGIC
+  audit_scope: file integrity, UUID syntax, counts, duplicates, and canonical hashes; not independent semantic adjudication
+  semantic_ground_truth_verified: false
+  semantic_caveat: source labels may include context-expanded neighbouring entities; event-edge and group outcomes remain derived sensitivity analyses
+config:
+  data:
+    train_fraction: 0.8
+    validation_fraction: 0.1
+    test_fraction: 0.1
+    feature_prefix: feat_
+    benign_campaign: benign
+    history_windows_seconds: [300, 900]
+    temporal_consistency_window_seconds: 500
+    time_unit_semantics: normalized timestamp units; retained-edge rank for MAGIC extracts
+    max_temporal_pairs: 32
+  model:
+    embedding_dim: 24
+    num_layers: 2
+    num_prototypes: 8
+    temperature: 0.07
+    dropout: 0.2
+    temporal_decay_init: 0.5
+    neighbor_sample_size: 8
+  optimization:
+    learning_rate: 0.003
+    weight_decay: 0.00001
+    epochs: 50
+    early_stopping_patience: 10
+    gradient_clip: 5.0
+    batch_size: 1024
+    node_loss_weight: 1.0
+    edge_loss_weight: 1.0
+    link_contrastive_weight: 1.0
+    subgraph_loss_weight: 1.0
+    explanation_loss_weight: 0.1
+    sparsity_coefficient: 0.01
+    prototype_coefficient: 1.0
+    entropy_coefficient: 1.0
+    importance_alignment_coefficient: 1.0
+    temporal_consistency_weight: 0.05
+    cross_layer_consistency_weight: 0.02
+    robustness_regularization: 0.1
+  explanation:
+    retained_fraction: 0.1
+    candidate_retained_fractions: [0.1, 0.2, 0.3, 0.377, 0.4, 0.5]
+    perturbation_noise: 0.02
+    stability_repeats: 5
+    latency_warmup: 3
+    latency_repeats: 10
+    evaluation_fractions: [0.05, 0.1, 0.2, 0.3, 0.4, 0.5]
+    archive_unclipped_scores: true
+    report_deletion_auc: true
+    report_insertion_auc: true
+  evaluation:
+    closed_window_seconds: 500
+    unit: node-window, event edge, and binary evaluation subgraph/window
+  robustness:
+    budgets: [0.05, 0.1]
+    feature_epsilon: 0.01
+    training_edge_budget: 0.05
+  ablations:
+  - full
+  - minus_temporal_stream
+  - minus_heterogeneous_stream
+  - minus_joint_optimization
+  - minus_consistency_regularization
+  - minus_prototype_learning
+  - minus_temporal_attention
+  - minus_gating_mechanism
+  competitive_baselines:
+  - gcn
+  - gat
+  - temporal_gat
+  - rgcn
+  inference:
+    confidence_interval: paired t-based 95 percent
+    randomization_test: exact two-sided sign flip for ten pairs
+    multiplicity: Holm adjustment within each outcome family
+    emphasis: effect sizes, confidence intervals, and complete seed distributions
+  scale_boundary:
+    available_training_extract_size: 5000
+    prefix_runtime_benchmark_edges: [1000, 2500, 5000]
+    limitation: larger accuracy experiments require additional raw or normalized data and are not represented as completed

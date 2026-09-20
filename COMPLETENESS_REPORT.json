@@ -1,0 +1,42 @@
+{
+  "status": "complete_with_declared_boundaries",
+  "protocol_version": "4.0",
+  "datasets": ["cadets", "theia", "trace", "streamspot"],
+  "seeds": [11, 22, 33, 44, 55, 66, 77, 88, 99, 110],
+  "primary_outcome": "entity/node detection on source-defined labels",
+  "secondary_outcomes": [
+    "derived event-edge detection",
+    "derived evaluation-subgraph detection",
+    "empirical deletion-only robustness stress test"
+  ],
+  "full_and_ablation_runs": 320,
+  "full_model_runs": 40,
+  "component_removal_runs": 280,
+  "graph_baseline_runs": 160,
+  "graph_baselines": ["gcn", "gat", "temporal_gat", "rgcn"],
+  "scale_benchmark_datasets": 4,
+  "scale_prefix_edges": [1000, 2500, 5000],
+  "optimization_diagnostic": {
+    "maximum_epochs": 50,
+    "early_stopping_patience": 10,
+    "runs_reaching_epoch_limit": 10,
+    "runs_checked": 40,
+    "median_epochs_executed": 38.5,
+    "median_best_epoch": 28.5
+  },
+  "inference": {
+    "matched_seeds": 10,
+    "exact_two_sided_sign_flip": true,
+    "holm_adjustment": true
+  },
+  "declared_boundaries": [
+    "accuracy is not evaluated beyond 5000 edges",
+    "event-edge and evaluation-subgraph labels are derived",
+    "ten seeds provide limited power for small heterogeneous effects",
+    "graph baselines are parameter-matched reference implementations",
+    "robustness is empirical and deletion-only",
+    "explanation fidelity is not uniformly strong"
+  ],
+  "missing_required_version_2_runs": [],
+  "manuscript_included": false
+}

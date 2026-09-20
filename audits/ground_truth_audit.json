@@ -1,0 +1,52 @@
+{
+  "schema_version": "x-thgnn-label-source-audit-2",
+  "all_passed": true,
+  "integrity_checks_passed": true,
+  "semantic_ground_truth_verified": false,
+  "datasets": {
+    "darpa_cadets": {
+      "source_file": "CADETS_ground_truth.txt",
+      "file_sha256": "19b367eec60d96c3b3063117fabac7a41eeaf226159c3c0668fd400363716f60",
+      "canonical_sha256": "adc7a99725450e0c4f2340ad985f498b0e7759be4940eded6cb6a953cea44743",
+      "nonblank_rows": 12858,
+      "unique_entity_uuids": 12858,
+      "duplicate_rows": 0,
+      "uuid_format": "RFC-4122 textual form; case-normalized for matching",
+      "label_source_type": "ThreaTrace-expanded anomaly-entity UUID labels",
+      "label_semantics": "positive source-label membership; event-edge labels are derived only when a source or destination UUID is listed",
+      "audit_scope": "file integrity, UUID syntax, counts, duplicates, and canonical hash; not independent semantic adjudication of attack involvement",
+      "semantic_ground_truth_verified": false,
+      "semantic_caveat": "The source labeling policy has been reported to include context-expanded neighboring entities; interpret these as benchmark anomaly/entity labels, not unqualified malicious-entity ground truth."
+    },
+    "darpa_theia": {
+      "source_file": "THEIA_ground_truth.txt",
+      "file_sha256": "2902255747499654355be31de46e2a698fb26ce9f5c4b32ee1924bada62c0630",
+      "canonical_sha256": "d8c61ef52d0f85a60abb8ea3b5d3ea30848d64655ed7a68d81939c08ea201ec2",
+      "nonblank_rows": 25363,
+      "unique_entity_uuids": 25358,
+      "duplicate_rows": 5,
+      "uuid_format": "RFC-4122 textual form; case-normalized for matching",
+      "label_source_type": "ThreaTrace-expanded anomaly-entity UUID labels",
+      "label_semantics": "positive source-label membership; event-edge labels are derived only when a source or destination UUID is listed",
+      "audit_scope": "file integrity, UUID syntax, counts, duplicates, and canonical hash; not independent semantic adjudication of attack involvement",
+      "semantic_ground_truth_verified": false,
+      "semantic_caveat": "The source labeling policy has been reported to include context-expanded neighboring entities; interpret these as benchmark anomaly/entity labels, not unqualified malicious-entity ground truth."
+    },
+    "darpa_trace": {
+      "source_file": "TRACE_ground_truth.txt",
+      "file_sha256": "9ad76145905e154830b42d9cb0510cf7f268073d9949226be08e195964b75864",
+      "canonical_sha256": "99df975021da2c27c2621daa6fcab82b4d83c1125319a99ddb0d394ea2a57c5b",
+      "nonblank_rows": 68265,
+      "unique_entity_uuids": 68172,
+      "duplicate_rows": 93,
+      "uuid_format": "RFC-4122 textual form; case-normalized for matching",
+      "label_source_type": "ThreaTrace-expanded anomaly-entity UUID labels",
+      "label_semantics": "positive source-label membership; event-edge labels are derived only when a source or destination UUID is listed",
+      "audit_scope": "file integrity, UUID syntax, counts, duplicates, and canonical hash; not independent semantic adjudication of attack involvement",
+      "semantic_ground_truth_verified": false,
+      "semantic_caveat": "The source labeling policy has been reported to include context-expanded neighboring entities; interpret these as benchmark anomaly/entity labels, not unqualified malicious-entity ground truth."
+    }
+  },
+  "provenance": "ThreaTrace-expanded anomaly-entity UUID label files used by the public MAGIC DARPA preprocessing workflow",
+  "audit_scope": "The audit verifies the supplied files, not the semantic correctness of every positive label or its direct involvement in an attack."
+}

@@ -1,0 +1,19 @@
+{
+  "n": 514,
+  "prevalence": 0.005836575875486381,
+  "threshold": 0.65,
+  "accuracy": 0.9630350194552529,
+  "f1": 0.24,
+  "precision": 0.13636363636363635,
+  "recall": 1.0,
+  "auroc": 0.9654272667971298,
+  "auprc": 0.09906078327130959,
+  "brier_score": 0.04075968653717509,
+  "model": "gat",
+  "seed": 110,
+  "best_epoch": 48,
+  "epochs_executed": 50,
+  "parameter_count": 4297,
+  "primary_outcome": "entity/node detection on source-defined labels",
+  "implementation_scope": "parameter-matched PyTorch Geometric reference implementation"
+}

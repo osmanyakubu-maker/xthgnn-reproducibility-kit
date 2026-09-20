@@ -1,0 +1,98 @@
+protocol_version: X-THGNN label-provenance-audited evaluation 3.1
+extraction_seed: 20260821
+training_seeds:
+- 11
+- 22
+- 33
+- 44
+- 55
+events_per_extract: 5000
+default_device: cpu
+task_scope: primary binary entity/node detection with secondary endpoint-derived event-edge
+  and evaluation-subgraph/window outcomes; no attack-stage claim
+ground_truth:
+  scheme: ThreaTrace-expanded anomaly-entity UUID labels used by MAGIC
+  audit_scope: file integrity, UUID syntax, counts, duplicates, and canonical hashes;
+    not independent semantic adjudication
+  semantic_ground_truth_verified: false
+  semantic_caveat: source labels may include context-expanded neighbouring entities;
+    interpret them as benchmark anomaly/entity labels
+  normalization: uppercase, unique, lexicographically sorted, LF-terminated
+  darpa_cadets:
+    unique_entity_uuids: 12858
+    duplicate_rows: 0
+    canonical_sha256: adc7a99725450e0c4f2340ad985f498b0e7759be4940eded6cb6a953cea44743
+  darpa_theia:
+    unique_entity_uuids: 25358
+    duplicate_rows: 5
+    canonical_sha256: d8c61ef52d0f85a60abb8ea3b5d3ea30848d64655ed7a68d81939c08ea201ec2
+  darpa_trace:
+    unique_entity_uuids: 68172
+    duplicate_rows: 93
+    canonical_sha256: 99df975021da2c27c2621daa6fcab82b4d83c1125319a99ddb0d394ea2a57c5b
+  label_boundary: entity labels are direct source-file UUID membership; event-edge
+    and group labels are derived secondary outcomes and are neither independently
+    adjudicated attack events nor attack-stage annotations
+config:
+  data:
+    train_fraction: 0.8
+    validation_fraction: 0.1
+    test_fraction: 0.1
+    feature_prefix: feat_
+    benign_campaign: benign
+    history_windows_seconds:
+    - 300
+    - 900
+    temporal_consistency_window_seconds: 500
+    time_unit_semantics: normalized timestamp units; retained-edge rank for MAGIC
+      extracts
+    max_temporal_pairs: 32
+  model:
+    embedding_dim: 24
+    num_layers: 2
+    num_prototypes: 8
+    temperature: 0.07
+    dropout: 0.2
+    temporal_decay_init: 0.5
+    neighbor_sample_size: 8
+  optimization:
+    learning_rate: 0.003
+    weight_decay: 1.0e-05
+    epochs: 8
+    early_stopping_patience: 3
+    gradient_clip: 5.0
+    batch_size: 1024
+    node_loss_weight: 1.0
+    edge_loss_weight: 1.0
+    link_contrastive_weight: 1.0
+    subgraph_loss_weight: 1.0
+    explanation_loss_weight: 0.1
+    sparsity_coefficient: 0.01
+    prototype_coefficient: 1.0
+    entropy_coefficient: 1.0
+    importance_alignment_coefficient: 1.0
+    temporal_consistency_weight: 0.05
+    cross_layer_consistency_weight: 0.02
+    robustness_regularization: 0.1
+  explanation:
+    retained_fraction: 0.1
+    candidate_retained_fractions:
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.377
+    - 0.4
+    - 0.5
+    perturbation_noise: 0.02
+    stability_repeats: 2
+    latency_warmup: 1
+    latency_repeats: 2
+  evaluation:
+    closed_window_seconds: 500
+    unit: node-window, event edge, and binary evaluation subgraph/window
+  robustness:
+    budgets:
+    - 0.05
+    - 0.1
+    feature_epsilon: 0.01
+    training_edge_budget: 0.05

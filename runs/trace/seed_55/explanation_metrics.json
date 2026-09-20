@@ -1,0 +1,66 @@
+{
+  "fidelity": 0.00011478861415525898,
+  "stability": 0.6666666716337204,
+  "sparsity": 0.8808080808080808,
+  "completeness": 1.0,
+  "latency_seconds": 0.003484344999833411,
+  "windows_total": 1,
+  "windows_with_predicted_alerts": 1,
+  "selected_edges": 6,
+  "available_edges": 500,
+  "retained_fraction": 0.1,
+  "targets": "predicted alerts in non-overlapping closed evaluation windows",
+  "window_records": [
+    {
+      "evaluation_window": 0,
+      "fidelity": 0.00011478861415525898,
+      "stability": 0.6666666716337204,
+      "sparsity": 0.8808080808080808,
+      "completeness": 1.0,
+      "latency_seconds": 0.003484344999833411,
+      "latency_iqr_seconds": [
+        0.0034346889999596897,
+        0.003534000999707132
+      ],
+      "latency_repeats": 2,
+      "selected_edges": 6,
+      "available_edges": 500,
+      "retained_fraction": 0.1,
+      "target_node_ids": [
+        "darpa_trace:n2315",
+        "darpa_trace:n2379",
+        "darpa_trace:n2398"
+      ],
+      "selected_event_rows": [
+        4701,
+        4702,
+        4708,
+        4709,
+        4710,
+        4822
+      ],
+      "prototype_assignments": [
+        {
+          "node_id": "darpa_trace:n2315",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.45516300201416
+        },
+        {
+          "node_id": "darpa_trace:n2379",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.505756378173828
+        },
+        {
+          "node_id": "darpa_trace:n2398",
+          "prototype_index": 4,
+          "prototype_class": 0,
+          "similarity": 8.505807876586914
+        }
+      ],
+      "targets": "predicted alerts at the validation-selected node threshold",
+      "definition": "target-local incoming-edge deletion/retention with perturbation Jaccard stability"
+    }
+  ]
+}

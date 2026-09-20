@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/normalized/theia_5000.csv",
+  "sha256": "c3456345a985724380b1b073451133302d83b316d3a3c1841da8245ff8a79cba",
+  "rows": 5000,
+  "nodes": 5699,
+  "relations": 16,
+  "node_types": 4,
+  "campaigns": 50,
+  "malicious_edges": 1000,
+  "malicious_node_events": 960,
+  "malicious_campaign_events": 1000,
+  "train_rows": 4000,
+  "validation_rows": 500,
+  "test_rows": 500,
+  "train_time_max": 4000.0,
+  "validation_time_max": 4500.0
+}

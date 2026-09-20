@@ -1,0 +1,6 @@
+evaluation_window,campaign_id,label,probability,prediction
+0,test:window_0,1,0.50380826,1
+0,test:window_1,1,0.50398624,1
+0,test:window_2,1,0.5037219,1
+0,test:window_3,1,0.50430584,1
+0,test:window_4,1,0.5045323,1

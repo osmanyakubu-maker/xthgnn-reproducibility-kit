@@ -1,0 +1,29 @@
+{
+  "scope": "classical executable sanity baselines",
+  "models": [
+    "LogisticRegression",
+    "RandomForest",
+    "HistGradientBoosting"
+  ],
+  "tasks": [
+    "node",
+    "edge",
+    "subgraph"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "warning": "Do not label these models as EULER, HetGLM, StageFinder, CyberGFM, or CONTINUUM.",
+  "protocol": "resource-bounded classical falsification controls",
+  "resource_budget": {
+    "LogisticRegression_max_iter": 2000,
+    "RandomForest_n_estimators": 40,
+    "HistGradientBoosting_max_iter": 50,
+    "logical_workers_per_dataset_process": 1
+  },
+  "full_budget_attempt": "Stopped uniformly before any numerical result was written; no partial full-budget results were retained."
+}

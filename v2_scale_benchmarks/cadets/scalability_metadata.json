@@ -1,0 +1,8 @@
+{
+  "checkpoint": "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/v2_ablations/cadets/full/seed_11/checkpoint.pt",
+  "events": "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/normalized/cadets_5000.csv",
+  "warmup": 3,
+  "repeats": 10,
+  "scope": "forward-pass latency only; explanation latency is evaluated separately in seeded runs",
+  "warning": "These are measured prefix values for this checkpoint and hardware; they do not establish accuracy beyond 5,000 edges."
+}

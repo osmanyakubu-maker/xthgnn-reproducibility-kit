@@ -1,0 +1,9 @@
+{
+  "runs_checked": 20,
+  "runs_with_completeness_within_2_1e_minus_6_of_one": 20,
+  "selected_edge_union_fraction_min": 0.002,
+  "selected_edge_union_fraction_max": 0.996,
+  "interpretation": "Completeness was clipped to [0, 1], so ceiling values cannot distinguish score preservation from retained-only ratios above one. The ceiling occurs across widely varying selected-edge union coverage and does not establish a compact causally sufficient explanation.",
+  "raw_pre_clipping_ratio_available": false,
+  "source": "Twenty archived explanation_metrics.json files; no model rerun."
+}

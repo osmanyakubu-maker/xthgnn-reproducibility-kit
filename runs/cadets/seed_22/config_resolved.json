@@ -1,0 +1,209 @@
+{
+  "data": {
+    "train_fraction": 0.8,
+    "validation_fraction": 0.1,
+    "test_fraction": 0.1,
+    "feature_prefix": "feat_",
+    "benign_campaign": "benign",
+    "history_windows_seconds": [
+      300,
+      900
+    ],
+    "temporal_consistency_window_seconds": 500,
+    "time_unit_semantics": "normalized timestamp units; retained-edge rank for MAGIC extracts",
+    "max_temporal_pairs": 32
+  },
+  "model": {
+    "embedding_dim": 24,
+    "num_layers": 2,
+    "num_prototypes": 8,
+    "temperature": 0.07,
+    "dropout": 0.2,
+    "temporal_decay_init": 0.5,
+    "neighbor_sample_size": 8
+  },
+  "optimization": {
+    "learning_rate": 0.003,
+    "weight_decay": 1e-05,
+    "epochs": 8,
+    "early_stopping_patience": 3,
+    "gradient_clip": 5.0,
+    "batch_size": 1024,
+    "node_loss_weight": 1.0,
+    "edge_loss_weight": 1.0,
+    "link_contrastive_weight": 1.0,
+    "subgraph_loss_weight": 1.0,
+    "explanation_loss_weight": 0.1,
+    "sparsity_coefficient": 0.01,
+    "prototype_coefficient": 1.0,
+    "entropy_coefficient": 1.0,
+    "importance_alignment_coefficient": 1.0,
+    "temporal_consistency_weight": 0.05,
+    "cross_layer_consistency_weight": 0.02,
+    "robustness_regularization": 0.1
+  },
+  "explanation": {
+    "retained_fraction": 0.1,
+    "candidate_retained_fractions": [
+      0.1,
+      0.2,
+      0.3,
+      0.377,
+      0.4,
+      0.5
+    ],
+    "perturbation_noise": 0.02,
+    "stability_repeats": 2,
+    "latency_warmup": 1,
+    "latency_repeats": 2
+  },
+  "evaluation": {
+    "closed_window_seconds": 500,
+    "unit": "node-window, event edge, and binary evaluation subgraph/window"
+  },
+  "robustness": {
+    "budgets": [
+      0.05,
+      0.1
+    ],
+    "feature_epsilon": 0.01,
+    "training_edge_budget": 0.05
+  },
+  "seed": 22,
+  "device": "cpu",
+  "runtime": {
+    "python": "3.10.20 (main, Jul 18 2026, 17:02:35) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "torch": "1.12.1+cpu",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "scikit_learn": "1.2.2",
+    "pyyaml": "6.0.1",
+    "cuda_available": false,
+    "cuda_version": null,
+    "device_name": "x86_64",
+    "code_sha256": "bb5324558124ea188cf78b33f85291087a29e969d14df3ec22bcca8f3fbee4c9"
+  },
+  "ablation_flags": {
+    "temporal_stream": true,
+    "heterogeneous_stream": true,
+    "joint_optimization": true,
+    "consistency_regularization": true,
+    "prototype_learning": true,
+    "temporal_attention": true,
+    "gating_mechanism": true
+  },
+  "robustness_aware": false,
+  "selected_explanation_retained_fraction": 0.1,
+  "evaluation_protocol": {
+    "mode": "non-overlapping closed windows",
+    "window_seconds": 500,
+    "future_context_after_window_close": false
+  },
+  "builder_state": {
+    "type_map": {
+      "__UNK__": 0,
+      "type_0": 1,
+      "type_1": 2,
+      "type_2": 3,
+      "type_3": 4,
+      "type_4": 5,
+      "type_5": 6
+    },
+    "relation_map": {
+      "__UNK__": 0,
+      "rel_0": 1,
+      "rel_1": 2,
+      "rel_11": 3,
+      "rel_13": 4,
+      "rel_16": 5,
+      "rel_18": 6,
+      "rel_2": 7,
+      "rel_26": 8,
+      "rel_3": 9,
+      "rel_4": 10,
+      "rel_5": 11,
+      "rel_6": 12,
+      "rel_7": 13,
+      "rel_8": 14,
+      "rel_9": 15
+    },
+    "campaign_map": {
+      "train:window_0": 0,
+      "train:window_1": 1,
+      "train:window_10": 2,
+      "train:window_11": 3,
+      "train:window_12": 4,
+      "train:window_13": 5,
+      "train:window_14": 6,
+      "train:window_15": 7,
+      "train:window_16": 8,
+      "train:window_17": 9,
+      "train:window_18": 10,
+      "train:window_19": 11,
+      "train:window_2": 12,
+      "train:window_20": 13,
+      "train:window_21": 14,
+      "train:window_22": 15,
+      "train:window_23": 16,
+      "train:window_24": 17,
+      "train:window_25": 18,
+      "train:window_26": 19,
+      "train:window_27": 20,
+      "train:window_28": 21,
+      "train:window_29": 22,
+      "train:window_3": 23,
+      "train:window_30": 24,
+      "train:window_31": 25,
+      "train:window_32": 26,
+      "train:window_33": 27,
+      "train:window_34": 28,
+      "train:window_35": 29,
+      "train:window_36": 30,
+      "train:window_37": 31,
+      "train:window_38": 32,
+      "train:window_39": 33,
+      "train:window_4": 34,
+      "train:window_5": 35,
+      "train:window_6": 36,
+      "train:window_7": 37,
+      "train:window_8": 38,
+      "train:window_9": 39
+    },
+    "feature_columns": [
+      "feat_original_edge_index"
+    ],
+    "scaler_mean": [
+      0.5000000000000001,
+      0.0,
+      6.785351700518637e-17,
+      0.00025000000000025447,
+      2.6644157889634794,
+      0.6135602359854734,
+      2.85690212876677,
+      0.7414467910725127,
+      337958.859
+    ],
+    "scaler_scale": [
+      0.28874731240181534,
+      1.0,
+      0.7070183873139374,
+      0.7071951198219627,
+      2.437189659346415,
+      1.153593866132093,
+      2.693653867002595,
+      1.330325218634855,
+      194163.34264688494
+    ],
+    "time_origin": 1.0,
+    "time_scale": 3999.0,
+    "history_windows_seconds": [
+      300,
+      900
+    ],
+    "fit_scope": "training partition only; node/campaign indices are split-local"
+  },
+  "epochs_completed": 4,
+  "best_validation_loss": 4.004524230957031
+}

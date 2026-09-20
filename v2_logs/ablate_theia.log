@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/code/X_THGNN_Reproduction_v3.py", line 3542, in <module>
+    standalone_main()
+  File "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/code/X_THGNN_Reproduction_v3.py", line 3502, in standalone_main
+    path = run_ablations(
+           ^^^^^^^^^^^^^^
+  File "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/code/X_THGNN_Reproduction_v3.py", line 2900, in run_ablations
+    train_experiment(events, config, run_dir, int(seed), flags=flags, device=device, max_epochs=max_epochs)
+  File "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/code/X_THGNN_Reproduction_v3.py", line 2854, in train_experiment
+    **empirical_edge_robustness(
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a9ab76ae8e0f/X_THGNN_Evidence_Archive_v2/code/X_THGNN_Reproduction_v3.py", line 1406, in empirical_edge_robustness
+    gate_gradient, feature_gradient = torch.autograd.grad(loss, (gates, feature_probe))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a9ab76ae8e0f/v2_env/lib/python3.12/site-packages/torch/autograd/__init__.py", line 594, in grad
+    result = _engine_run_backward(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a9ab76ae8e0f/v2_env/lib/python3.12/site-packages/torch/autograd/graph.py", line 1072, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The differentiated Tensor at index 1 appears to not have been used in the graph. Set allow_unused=True if this is the desired behavior.

@@ -1,0 +1,16 @@
+{
+  "all_available_checks_passed": true,
+  "core_model_executed": true,
+  "submission_ready_self_test": true,
+  "failed": [],
+  "checks": {
+    "ground_truth_audit": true,
+    "manuscript_config_roundtrip": true,
+    "data_pipeline": true,
+    "chronological_isolation": true,
+    "baseline_pipeline": true,
+    "pilot_pipeline": true,
+    "pytorch_forward_backward": true
+  },
+  "warning": null
+}

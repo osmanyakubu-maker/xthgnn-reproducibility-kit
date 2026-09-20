@@ -1,0 +1,9 @@
+{
+  "participants_total": 12,
+  "alerts_total": 4,
+  "rows": 96,
+  "bootstrap_repeats": 200,
+  "permutation_repeats": 5000,
+  "analysis": "condition means within participant; participant-cluster bootstrap; paired sign-flip permutation",
+  "warning": "Confirmatory mixed-effects modelling requires a prespecified model and alert-level dependency structure."
+}
