@@ -1,0 +1,6 @@
+scale,dataset,seed,eligible_candidate_edges,method,deletion_auc,evaluation_mode,note
+100000,streamspot,11,1,learned,0.5288559883832931,eval,Identical one-edge ranking; the prior method-specific variation arose when the detector remained in training mode during scoring.
+100000,streamspot,11,1,GNNExplainer,0.5288559883832931,eval,Identical one-edge ranking; the prior method-specific variation arose when the detector remained in training mode during scoring.
+100000,streamspot,11,1,GraphMask,0.5288559883832931,eval,Identical one-edge ranking; the prior method-specific variation arose when the detector remained in training mode during scoring.
+100000,streamspot,11,1,PGExplainer,0.5288559883832931,eval,Identical one-edge ranking; the prior method-specific variation arose when the detector remained in training mode during scoring.
+100000,streamspot,11,1,random,0.5288559883832931,eval,Identical one-edge ranking; the prior method-specific variation arose when the detector remained in training mode during scoring.
